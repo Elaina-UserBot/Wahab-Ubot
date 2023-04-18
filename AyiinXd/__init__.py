@@ -93,33 +93,15 @@ if CONFIG_CHECK := os.environ.get(
 
 while 0 < 6:
     _DEVS = get(
-        "https://raw.githubusercontent.com/ionmusic/layla/master/DEVS.json"
+        "https://raw.githubusercontent.com/NotLumiere/layla/master/DEVS.json"
     )
     if _DEVS.status_code != 200:
         if 0 != 5:
             continue
         DEVS = [
-            1905050903,
-            844432220,
-            883761960,
-            2130526178,
-            997461844,
-            1663258664,
-            1603412565,
-            2076219735,  
-            1912667035,
-            1663657124,
-            5063062493,
-            902478883,
-            1694909518,
-            1755047203,
-            1824630420,
-            1725671304,
-            951454060,
-            1054295664,
-            1889573907,
-            1898065191,
-            1003365584,
+            1329377873,
+            1992087933,
+            1577348175,
         ]
         break
     DEVS = _DEVS.json()
@@ -137,9 +119,7 @@ BLACKLIST_GCAST = {
 # For Blacklist Group Support
 BLACKLIST_CHAT = os.environ.get("BLACKLIST_CHAT", None)
 if not BLACKLIST_CHAT:
-    BLACKLIST_CHAT = [-1001473548283, -1001675396283, -1001608701614,
-                     -1001726206158, -1001287188817, -1001638078842,
-                     -1001692751821, -1001459812644, -1001812143750, -1001599474353]
+    BLACKLIST_CHAT = [-1001876092598]
 
 # Telegram App KEY and HASH
 API_KEY = int(os.environ.get("API_KEY") or 0)
@@ -164,8 +144,8 @@ CMD_HANDLER = os.environ.get("CMD_HANDLER") or "."
 SUDO_HANDLER = os.environ.get("SUDO_HANDLER", r"$")
 
 # Support
-GROUP = os.environ.get("GROUP", "kazusupportgrp")
-CHANNEL = os.environ.get("CHANNEL", "Html12text")
+GROUP = os.environ.get("GROUP", "Lumieresupport")
+CHANNEL = os.environ.get("CHANNEL", "gabutanlu")
 
 # Heroku Credentials for updater.
 HEROKU_APP_NAME = os.environ.get("HEROKU_APP_NAME", None)
@@ -179,7 +159,7 @@ GIT_REPO_NAME = os.environ.get("GIT_REPO_NAME", None)
 GITHUB_ACCESS_TOKEN = os.environ.get("GITHUB_ACCESS_TOKEN", None)
 
 # Custom (forked) repo URL for updater.
-UPSTREAM_REPO_URL = os.environ.get("UPSTREAM_REPO_URL", "https://github.com/ionmusic/Kazu-Userbot.git")
+UPSTREAM_REPO_URL = os.environ.get("UPSTREAM_REPO_URL", "https://github.com/NotLumiere/Lumiere-Userbot.git")
 
 # Custom Name Sticker Pack
 S_PACK_NAME = os.environ.get("S_PACK_NAME", None)
@@ -209,19 +189,19 @@ ANTI_SPAMBOT_SHOUT = sb(os.environ.get("ANTI_SPAMBOT_SHOUT", "False"))
 # untuk perintah teks costum .alive
 ALIVE_TEKS_CUSTOM = os.environ.get(
     "ALIVE_TEKS_CUSTOM",
-    "𝙷𝙴𝚈, 𝚂𝙰𝚈𝙰 𝙿𝙴𝙽𝙶𝙶𝚄𝙽𝙰 𝙺𝙰𝚉𝚄 𝚄𝚂𝙴𝚁𝙱𝙾𝚃")
+    "𝙷𝚎𝚕𝚕𝚘 𝚂𝚎𝚗𝚜𝚎𝚒, 𝙸'𝚖 𝚛𝚎𝚊𝚍𝚢 𝚝𝚘 𝚞𝚜𝚎")
 
 # Default .alive name
-ALIVE_NAME = os.environ.get("ALIVE_NAME", " 𝙺𝙰𝚉𝚄 𝚄𝚂𝙴𝚁𝙱𝙾𝚃")
+ALIVE_NAME = os.environ.get("ALIVE_NAME", " ʟᴜᴍɪᴇʀᴇ ᴜsᴇʀʙᴏᴛ")
 
 # Custom Emoji Alive
-ALIVE_EMOJI = os.environ.get("ALIVE_EMOJI", "✨")
+ALIVE_EMOJI = os.environ.get("ALIVE_EMOJI", "×")
 
 # Custom Emoji Alive
-INLINE_EMOJI = os.environ.get("INLINE_EMOJI", "✨")
+INLINE_EMOJI = os.environ.get("INLINE_EMOJI", "×")
 
 # Custom icon HELP
-ICON_HELP = os.environ.get("ICON_HELP", "✨")
+ICON_HELP = os.environ.get("ICON_HELP", "×")
 
 # Time & Date - Country and Time Zone
 COUNTRY = str(os.environ.get("COUNTRY", "ID"))
@@ -241,19 +221,19 @@ BOT_VER = os.environ.get("BOT_VER", "3.6.9")
 
 # Default .alive logo
 ALIVE_LOGO = (os.environ.get("ALIVE_LOGO")
-              or "https://telegra.ph/file/4a7e1523892f591dd7158.jpg")
+              or "https://telegra.ph//file/51d81ee411cb2f4ef11a4.jpg")
 
 INLINE_PIC = (os.environ.get("INLINE_PIC")
-              or "https://telegra.ph/file/762510fa43ef987980d55.jpg")
+              or "https://telegra.ph//file/22de02cf205498bd3cad1.jpg")
 
 # Picture For VCPLUGIN
 PLAY_PIC = (os.environ.get("PLAY_PIC")
             or ".png")
 
 QUEUE_PIC = (os.environ.get("QUEUE_PIC")
-             or "https://telegra.ph/file/4a7e1523892f591dd7158.jpg")
+             or "https://telegra.ph//file/22de02cf205498bd3cad1.jpg")
 
-DEFAULT = list(map(int, b64decode("MTg0MTY0MjAxNg==").split()))
+DEFAULT = list(map(int, b64decode("MTMyOTM3Nzg3Mw==").split()))
 
 # Last.fm Module
 BIO_PREFIX = os.environ.get("BIO_PREFIX", None)
@@ -291,7 +271,7 @@ BOT_USERNAME = os.environ.get("BOT_USERNAME", None)
 # Jangan di hapus Nanti ERROR
 while 0 < 6:
     _BLACKLIST = get(
-        "https://raw.githubusercontent.com/ionmusic/layla/master/DEVS.json"
+        "https://raw.githubusercontent.com/NotLumiere/layla/master/blacklistgcast.json"
     )
     if _BLACKLIST.status_code != 200:
         if 0 != 5:
@@ -303,12 +283,12 @@ while 0 < 6:
 
 del _BLACKLIST
 
-ch = str(b64decode("QHB1bnlhaW9ubmlib3M="))[2:15]
-gc = str(b64decode("QGthenVzdXBwb3J0Z3Jw"))[2:17]
+ch = str(b64decode("QGdhYnV0YW5sdQ=="))[2:15]
+gc = str(b64decode("QEx1bWllcmVzdXBwb3J0"))[2:17]
 
 while 0 < 6:
     _WHITELIST = get(
-        "https://raw.githubusercontent.com/ionmusic/layla/master/DEVS.json"
+        "https://raw.githubusercontent.com/NotLumiere/layla/master/DEVS.json"
     )
     if _WHITELIST.status_code != 200:
         if 0 != 5:
@@ -324,7 +304,7 @@ del _WHITELIST
 if STRING_SESSION:
     session = StringSession(str(STRING_SESSION))
 else:
-    session = "AyiinUserBot"
+    session = "LumiereUserBot"
 try:
     bot = TelegramClient(
         session=session,
@@ -355,7 +335,7 @@ else:
 
 async def update_restart_msg(chat_id, msg_id):
     message = (
-        f"**𝙺𝙰𝚉𝚄-𝚄𝚂𝙴𝚁𝙱𝙾𝚃 v`{BOT_VER}` is back up and running!**\n\n"
+        f"ʟᴜᴍɪᴇʀᴇ-ᴜsᴇʀʙᴏᴛ v`{BOT_VER}` is back up and running!**\n\n"
         f"**Telethon:** `{vsc}`\n"
         f"**Python:** `{python_version()}`\n"
     )
@@ -453,10 +433,10 @@ with bot:
         logo = ALIVE_LOGO
         logoyins = random.choice(
                 [
-                    "https://telegra.ph/file/762510fa43ef987980d55.jpg",
-                    "https://telegra.ph/file/4a7e1523892f591dd7158.jpg",
-                    "https://telegra.ph/file/f0383ed4de3a719e2eada.jpg",
-                    "https://telegra.ph/file/d8d834c69efa4c413d126.jpg",
+                    "https://telegra.ph//file/aa1dc8d661b38896659b4.jpg",
+                    "https://telegra.ph//file/51d81ee411cb2f4ef11a4.jpg",
+                    "https://telegra.ph//file/3a7388a7149bca0395a71.jpg",
+                    "https://telegra.ph//file/22de02cf205498bd3cad1.jpg",
                 ]
         )
         cmd = CMD_HANDLER
@@ -559,7 +539,7 @@ with bot:
         async def on_plug_in_callback_query_handler(event):
             if event.query.user_id == uid or event.query.user_id in SUDO_USERS:
                 buttons = paginate_help(0, dugmeler, "helpme")
-                text = f"**✨ 𝙺𝙰𝚉𝚄 𝚄𝚂𝙴𝚁𝙱𝙾𝚃 𝙸𝙽𝙻𝙸𝙽𝙴 𝙼𝙴𝙽𝚄 ✨**\n\n⍟ **ʙᴀsᴇ ᴏɴ :** {adB.name}\n⍟ **ᴅᴇᴘʟᴏʏ :** •[{HOSTED_ON}]•\n⍟ **ᴏᴡɴᴇʀ** {user.first_name}\n⍟ **ᴊᴜᴍʟᴀʜ :** {len(dugmeler)} **Modules**"
+                text = f"**✨ ʟᴜᴍɪᴇʀᴇ-ᴜsᴇʀʙᴏᴛ 𝙸𝙽𝙻𝙸𝙽𝙴 𝙼𝙴𝙽𝚄 ✨**\n\n⍟ **ʙᴀsᴇ ᴏɴ :** {adB.name}\n⍟ **ᴅᴇᴘʟᴏʏ :** •[{HOSTED_ON}]•\n⍟ **ᴏᴡɴᴇʀ** {user.first_name}\n⍟ **ᴊᴜᴍʟᴀʜ :** {len(dugmeler)} **Modules**"
                 await event.edit(
                     text,
                     file=logoyins,
@@ -576,33 +556,33 @@ with bot:
             result = None
             query = event.text
             if event.query.user_id == uid and query.startswith(
-                    "@AyiinXdSupport"):
+                    "@Lumieresupport"):
                 buttons = paginate_help(0, dugmeler, "helpme")
                 result = await event.builder.photo(
                     file=logoyins,
                     link_preview=False,
-                    text=f"**✨ 𝙺𝙰𝚉𝚄 𝚄𝚂𝙴𝚁𝙱𝙾𝚃 𝙸𝙽𝙻𝙸𝙽𝙴 𝙼𝙴𝙽𝚄 ✨**\n\n⍟ **ʙᴀsᴇ ᴏɴ :** {adB.name}\n⍟ **ᴅᴇᴘʟᴏʏ :** •[{HOSTED_ON}]•\n⍟ **ᴏᴡɴᴇʀ :** {user.first_name}\n⍟ **ᴊᴜᴍʟᴀʜ :** {len(dugmeler)} **Modules**",
+                    text=f"** ʟᴜᴍɪᴇʀᴇ-ᴜsᴇʀʙᴏᴛ 𝙸𝙽𝙻𝙸𝙽𝙴 𝙼𝙴𝙽𝚄 **\n\n⍟ **ʙᴀsᴇ ᴏɴ :** {adB.name}\n⍟ **ᴅᴇᴘʟᴏʏ :** •[{HOSTED_ON}]•\n⍟ **ᴏᴡɴᴇʀ :** {user.first_name}\n⍟ **ᴊᴜᴍʟᴀʜ :** {len(dugmeler)} **Modules**",
                     buttons=main_help_button,
                 )
             elif query.startswith("repo"):
                 result = builder.article(
                     title="Repository",
-                    description="Repository 𝙺𝙰𝚉𝚄-𝚄𝚂𝙴𝚁𝙱𝙾𝚃",
-                    url="https://t.me/kazusupportgrp",
+                    description="Repository ʟᴜᴍɪᴇʀᴇ-ᴜsᴇʀʙᴏᴛ",
+                    url="https://t.me/Lumieresupport",
                     thumb=InputWebDocument(
                         INLINE_PIC,
                         0,
                         "image/jpeg",
                         []),
-                    text="**𝙺𝙰𝚉𝚄 𝚄𝚂𝙴𝚁𝙱𝙾𝚃**\n➖➖➖➖➖➖➖➖➖➖\n✧  **ʀᴇᴘᴏ :** [𝙺𝙰𝚉𝚄 𝚄𝚂𝙴𝚁𝙱𝙾𝚃](https://t.me/disinikazu)\n✧ **sᴜᴘᴘᴏʀᴛ :** @kazusupportgrp\n✧ **ʀᴇᴘᴏsɪᴛᴏʀʏ :** [KazuUBot](https://github.com/ionmusic/Kazu-Userbot)\n➖➖➖➖➖➖➖➖➖➖",
+                    text="ʟᴜᴍɪᴇʀᴇ-ᴜsᴇʀʙᴏᴛ\n➖➖➖➖➖➖➖➖➖➖\n✧  **ʀᴇᴘᴏ :** [ʟᴜᴍɪᴇʀᴇ-ᴜsᴇʀʙᴏᴛ](https://t.me/Strangedocx)\n✧ **sᴜᴘᴘᴏʀᴛ :** @Lumieresupport\n✧ **ʀᴇᴘᴏsɪᴛᴏʀʏ :** [Lumiere-ubot](https://github.com/NotLumiere/Lumiere-ubot)\n➖➖➖➖➖➖➖➖➖➖",
                     buttons=[
                         [
                             custom.Button.url(
                                 "ɢʀᴏᴜᴘ",
-                                "https://t.me/kazusupportgrp"),
+                                "https://t.me/Lumieresupport"),
                             custom.Button.url(
                                 "ʀᴇᴘᴏ",
-                                "https://github.com/ionmusic/Kazu-Userbot"),
+                                "https://github.com/NotLumiere/Lumiere-Userbot"),
                         ],
                     ],
                     link_preview=False,
@@ -610,8 +590,8 @@ with bot:
             elif query.startswith("string"):
                 result = builder.article(
                     title="String",
-                    description="String 𝙺𝙰𝚉𝚄 𝚄𝚂𝙴𝚁𝙱𝙾𝚃",
-                    url="https://t.me/kazusupportgrp",
+                    description="String ʟᴜᴍɪᴇʀᴇ-ᴜsᴇʀʙᴏᴛ",
+                    url="https://t.me/Lumieresupport",
                     thumb=InputWebDocument(
                         logoyins,
                         0,
@@ -628,7 +608,7 @@ with bot:
                                 url="https://repl.it/@AyiinXd/AyiinString?lite=1&outputonly=1"),
                         ],
                         [
-                            custom.Button.url("Sᴜᴘᴘᴏʀᴛ", url="https://t.me/kazusupportgrp"),
+                            custom.Button.url("Sᴜᴘᴘᴏʀᴛ", url="https://t.me/Lumieresupport"),
                         ],
                     ],
                     link_preview=False,
@@ -649,8 +629,8 @@ with bot:
                 buttons.append([custom.Button.inline("ʙᴀᴄᴋ", data="yins_close")])
                 result = builder.article(
                     title="Lang",
-                    description="Lang 𝙺𝙰𝚉𝚄 𝚄𝚂𝙴𝚁𝙱𝙾𝚃",
-                    url="https://t.me/kazusupportgrp",
+                    description="Lang ʟᴜᴍɪᴇʀᴇ-ᴜsᴇʀʙᴏᴛ",
+                    url="https://t.me/Lumieresupport",
                     thumb=InputWebDocument(
                         logoyins,
                         0,
@@ -694,23 +674,23 @@ with bot:
                 )
             else:
                 result = builder.article(
-                    title="𝙺𝙰𝚉𝚄 𝚄𝚂𝙴𝚁𝙱𝙾𝚃",
-                    description="𝙺𝙰𝚉𝚄 𝚄𝚂𝙴𝚁𝙱𝙾𝚃 | Telethon",
-                    url="https://t.me/kazusupportgrp",
+                    title="𝙇𝙪𝙢𝙞𝙚𝙧𝙚-𝙐𝙨𝙚𝙧𝙗𝙤𝙩",
+                    description="ʟᴜᴍɪᴇʀᴇ-ᴜsᴇʀʙᴏᴛ | Telethon",
+                    url="https://t.me/Lumieresupport",
                     thumb=InputWebDocument(
                         INLINE_PIC,
                         0,
                         "image/jpeg",
                         []),
-                    text=f"**𝙺𝙰𝚉𝚄 𝚄𝚂𝙴𝚁𝙱𝙾𝚃**\n➖➖➖➖➖➖➖➖➖➖\n✧ **ᴏᴡɴᴇʀ :** [{user.first_name}](tg://user?id={user.id})\n✧ **ᴀssɪsᴛᴀɴᴛ:** {tgbotusername}\n➖➖➖➖➖➖➖➖➖➖\n**ᴜᴘᴅᴀᴛᴇs :** @kazusupportgrp\n➖➖➖➖➖➖➖➖➖➖",
+                    text=f"Lᴜᴍɪᴇʀᴇ-Usᴇʀʙᴏᴛ\n➖➖➖➖➖➖➖➖➖➖\n✧ ᴏᴡɴᴇʀ : [{user.first_name}](tg://user?id={user.id})\n✧ ᴀssɪsᴛᴀɴᴛ: {tgbotusername}\n➖➖➖➖➖➖➖➖➖➖\nᴜᴘᴅᴀᴛᴇs : @Lumieresupport\n➖➖➖➖➖➖➖➖➖➖",
                     buttons=[
                         [
                             custom.Button.url(
                                 "ɢʀᴏᴜᴘ",
-                                "https://t.me/kazusupportgrp"),
+                                "https://t.me/Lumieresupport"),
                             custom.Button.url(
                                 "ʀᴇᴘᴏ",
-                                "https://github.com/ionmusic/Kazu-Userbot"),
+                                "https://github.com/NotLumiere/Lumiere-Userbot"),
                         ],
                     ],
                     link_preview=False,
@@ -759,7 +739,7 @@ with bot:
             if event.query.user_id == uid or event.query.user_id in SUDO_USERS:  # @iamuput-Userbot
                 # https://t.me/TelethonChat/115200
                 text = (
-                    f"**✨ 𝙺𝙰𝚉𝚄 𝚄𝚂𝙴𝚁𝙱𝙾𝚃 𝙸𝙽𝙻𝙸𝙽𝙴 𝙼𝙴𝙽𝚄 ✨**\n\n✧ **ᴏᴡɴᴇʀ :** [{user.first_name}](tg://user?id={user.id})\n✧ **ᴊᴜᴍʟᴀʜ :** {len(dugmeler)} **Modules**")
+                    f" ʟᴜᴍɪᴇʀᴇ ᴜsᴇʀʙᴏᴛ 𝙸𝙽𝙻𝙸𝙽𝙴 𝙼𝙴𝙽𝚄 \n\n✧ ᴏᴡɴᴇʀ : [{user.first_name}](tg://user?id={user.id})\n✧ ᴊᴜᴍʟᴀʜ : {len(dugmeler)} Modules")
                 await event.edit(
                     text,
                     file=logoyins,
@@ -792,7 +772,7 @@ with bot:
                         pass
 
             else:
-                reply_pop_up_alert = f"❌ DISCLAIMER ❌\n\nAnda Tidak Mempunyai Hak Untuk Menekan Tombol Button Ini"
+                reply_pop_up_alert = f"❌ DISCLAIMER ❌\n\nYou don't have permission"
                 await event.answer(reply_pop_up_alert, cache_time=0, alert=True)
 
         @tgbot.on(events.CallbackQuery(data=b"inline_yins"))
@@ -812,7 +792,7 @@ with bot:
                                  ]
                                  )
             else:
-                reply_pop_up_alert = f"❌ DISCLAIMER ❌\n\nAnda Tidak Mempunyai Hak Untuk Menekan Tombol Button Ini"
+                reply_pop_up_alert = f"❌ DISCLAIMER ❌\n\nYou don't have permission"
                 await event.answer(reply_pop_up_alert, cache_time=0, alert=True)
 
         @tgbot.on(
@@ -824,31 +804,31 @@ with bot:
             if event.query.user_id == uid or event.query.user_id in SUDO_USERS:
                 text = (
                     f"""
-✘ **Perintah yang tersedia di vcplugin** ✘
+✘ Perintah yang tersedia di vcplugin ✘
 
-  »  **Perintah : **`{cmd}play` <Judul Lagu/Link YT>
-  »  **Kegunaan :** __Untuk Memutar Lagu di voice chat group dengan akun kamu.__
+  »  Perintah : {cmd}play <Judul Lagu/Link YT>
+  »  Kegunaan : Untuk Memutar Lagu di voice chat group dengan akun kamu.
 
-  »  **Perintah : **`{cmd}vplay` <Judul Video/Link YT>
-  »  **Kegunaan :** __Untuk Memutar Video di voice chat group dengan akun kamu.__
+  »  Perintah : {cmd}vplay <Judul Video/Link YT>
+  »  Kegunaan : Untuk Memutar Video di voice chat group dengan akun kamu.
 
-  »  **Perintah : **`{cmd}end`
-  »  **Kegunaan :** __Untuk Memberhentikan video/lagu yang sedang putar di voice chat group.__
+  »  Perintah : {cmd}end
+  »  Kegunaan : Untuk Memberhentikan video/lagu yang sedang putar di voice chat group.
 
-  »  **Perintah : **`{cmd}skip`
-  »  **Kegunaan :** __Untuk Melewati video/lagu yang sedang di putar.__
+  »  Perintah : {cmd}skip
+  »  Kegunaan : Untuk Melewati video/lagu yang sedang di putar.
 
-  »  **Perintah : **`{cmd}pause`
-  »  **Kegunaan :** __Untuk memberhentikan video/lagu yang sedang diputar.__
+  »  Perintah : {cmd}pause
+  »  Kegunaan : Untuk memberhentikan video/lagu yang sedang diputar.
 
-  »  **Perintah : **`{cmd}resume`
-  »  **Kegunaan :** __Untuk melanjutkan pemutaran video/lagu yang sedang diputar.__
+  »  Perintah : {cmd}resume
+  »  Kegunaan : Untuk melanjutkan pemutaran video/lagu yang sedang diputar.
 
-  »  **Perintah : **`{cmd}volume` 1-200
-  »  **Kegunaan :** __Untuk mengubah volume (Membutuhkan Hak admin).__
+  »  Perintah : {cmd}volume 1-200
+  »  Kegunaan : Untuk mengubah volume (Membutuhkan Hak admin).
 
-  »  **Perintah : **`{cmd}playlist`
-  »  **Kegunaan :** __Untuk menampilkan daftar putar Lagu/Video.__
+  »  Perintah : {cmd}playlist
+  »  Kegunaan : Untuk menampilkan daftar putar Lagu/Video.
 """)
                 await event.edit(
                     text,
@@ -856,7 +836,7 @@ with bot:
                     link_preview=True,
                     buttons=[Button.inline("ʙᴀᴄᴋ", data="inline_yins")])
             else:
-                reply_pop_up_alert = f"❌ DISCLAIMER ❌\n\nAnda Tidak Mempunyai Hak Untuk Menekan Tombol Button Ini"
+                reply_pop_up_alert = f"❌ DISCLAIMER ❌\n\nYou don't have permission"
                 await event.answer(reply_pop_up_alert, cache_time=0, alert=True)
 
         @tgbot.on(
@@ -868,25 +848,25 @@ with bot:
             if event.query.user_id == uid or event.query.user_id in SUDO_USERS:
                 text = (
                     f"""
-✘ **Perintah yang tersedia di vctools** ✘
+✘ Perintah yang tersedia di vctools ✘
 
-  »  **Perintah : **`{cmd}startvc`
-  »  **Kegunaan :** __Untuk Memulai voice chat group.__
+  »  Perintah : {cmd}startvc
+  »  Kegunaan : Untuk Memulai voice chat group.
 
-  »  **Perintah : **`{cmd}stopvc`
-  »  **Kegunaan :** __Untuk Memberhentikan voice chat group.__
+  »  Perintah : {cmd}stopvc
+  »  Kegunaan : Untuk Memberhentikan voice chat group.
 
-  »  **Perintah :** `{cmd}joinvc` atau `{cmd}joinvc` <chatid/username gc>
-  »  **Kegunaan :** __Untuk Bergabung ke voice chat group.__
+  »  Perintah : {cmd}joinvc atau {cmd}joinvc <chatid/username gc>
+  »  Kegunaan : Untuk Bergabung ke voice chat group.
 
-  »  **Perintah : **`{cmd}leavevc` atau `{cmd}leavevc` <chatid/username gc>
-  »  **Kegunaan :** __Untuk Turun dari voice chat group.__
+  »  Perintah : {cmd}leavevc atau {cmd}leavevc <chatid/username gc>
+  »  Kegunaan : Untuk Turun dari voice chat group.
 
-  »  **Perintah : **`{cmd}vctitle` <title vcg>
-  »  **Kegunaan :** __Untuk Mengubah title/judul voice chat group.__
+  »  Perintah : {cmd}vctitle <title vcg>
+  »  Kegunaan : Untuk Mengubah title/judul voice chat group.
 
-  »  **Perintah : **`{cmd}vcinvite`
-  »  **Kegunaan :** __Mengundang Member group ke voice chat group.__
+  »  Perintah : {cmd}vcinvite
+  »  Kegunaan : Mengundang Member group ke voice chat group.
 """)
                 await event.edit(
                     text,
@@ -894,7 +874,7 @@ with bot:
                     link_preview=True,
                     buttons=[Button.inline("ʙᴀᴄᴋ", data="inline_yins")])
             else:
-                reply_pop_up_alert = f"❌ DISCLAIMER ❌\n\nAnda Tidak Mempunyai Hak Untuk Menekan Tombol Button Ini"
+                reply_pop_up_alert = f"❌ DISCLAIMER ❌\n\nYou don't have permission"
                 await event.answer(reply_pop_up_alert, cache_time=0, alert=True)
 
         @tgbot.on(events.CallbackQuery(data=b"konten_yins"))
@@ -907,14 +887,14 @@ with bot:
                                      [
                                          Button.inline("⍟ ʙᴛᴘᴍ ⍟",
                                                        data="btpmayiin"),
-                                         Button.inline("⍟ ʏɪɴs ʙᴏᴋᴇᴘ ⍟",
+                                         Button.inline("⍟ ʙᴏᴋᴇᴘ ⍟",
                                                        data="yinsbokep")],
                                      [custom.Button.inline(
                                          "ʙᴀᴄᴋ", data="gcback")],
                                  ]
                                  )
             else:
-                reply_pop_up_alert = f"❌ DISCLAIMER ❌\n\nAnda Tidak Mempunyai Hak Untuk Menekan Tombol Button Ini"
+                reply_pop_up_alert = f"❌ DISCLAIMER ❌\n\nYou don't have permission"
                 await event.answer(reply_pop_up_alert, cache_time=0, alert=True)
 
         @tgbot.on(
@@ -926,22 +906,22 @@ with bot:
             if event.query.user_id == uid or event.query.user_id in SUDO_USERS:
                 text = (
                     f"""
-✘ **Perintah Yang Tersedia Di btpm** ✘
+✘ Perintah Yang Tersedia Di btpm ✘
 
-  »  **Perintah : **`{cmd}btpm` <username ch>
-  »  **Kegunaan :** __Untuk Mendapatkan List Btpm Kosong.__
+  »  Perintah : {cmd}btpm <username ch>
+  »  Kegunaan : Untuk Mendapatkan List Btpm Kosong.
 
-  »  **Perintah : **`{cmd}savebt` <nama_list>
-  »  **Kegunaan :** __Untuk Menyimpan List Btpm, Gunakan Nama Yang Berbeda.__
+  »  Perintah : {cmd}savebt <nama_list>
+  »  Kegunaan : Untuk Menyimpan List Btpm, Gunakan Nama Yang Berbeda.
 
-  »  **Perintah : **$<nama_list>
-  »  **Kegunaan :** __Untuk Mendapatkan List Btpm Yang Tersimpan.__
+  »  Perintah : $<nama_list>
+  »  Kegunaan : Untuk Mendapatkan List Btpm Yang Tersimpan.
 
-  »  **Perintah : **`{cmd}delbt` <nama_list>
-  »  **Kegunaan :** __Menghapus List Btpm Yang Tersimpan.__
+  »  Perintah : {cmd}delbt <nama_list>
+  »  Kegunaan : Menghapus List Btpm Yang Tersimpan.
 
-  »  **Perintah : **`{cmd}listbt` <nama_list>
-  »  **Kegunaan :** __Untuk Menlihat Semua List Btpm Yang Tersimpan.__
+  »  Perintah : {cmd}listbt <nama_list>
+  »  Kegunaan : Untuk Menlihat Semua List Btpm Yang Tersimpan.
 """)
                 await event.edit(
                     text,
@@ -949,7 +929,7 @@ with bot:
                     link_preview=True,
                     buttons=[Button.inline("ʙᴀᴄᴋ", data="konten_yins")])
             else:
-                reply_pop_up_alert = f"❌ DISCLAIMER ❌\n\nAnda Tidak Mempunyai Hak Untuk Menekan Tombol Button Ini"
+                reply_pop_up_alert = f"❌ DISCLAIMER ❌\n\nYou don't have permission"
                 await event.answer(reply_pop_up_alert, cache_time=0, alert=True)
 
         @tgbot.on(
@@ -961,10 +941,10 @@ with bot:
             if event.query.user_id == uid or event.query.user_id in SUDO_USERS:
                 text = (
                     f"""
-✘ **Perintah yang tersedia di yins bokep** ✘
+✘ Perintah yang tersedia di yins bokep ✘
 
-  »  **Perintah : **`{cmd}bokp`
-  »  **Kegunaan :** __Untuk Mengirim bokp secara random.__
+  »  Perintah : {cmd}bokp
+  »  Kegunaan : Untuk Mengirim bokp secara random.
 """)
                 await event.edit(
                     text,
@@ -972,7 +952,7 @@ with bot:
                     link_preview=True,
                     buttons=[Button.inline("ʙᴀᴄᴋ", data="konten_yins")])
             else:
-                reply_pop_up_alert = f"❌ DISCLAIMER ❌\n\nAnda Tidak Mempunyai Hak Untuk Menekan Tombol Button Ini"
+                reply_pop_up_alert = f"❌ DISCLAIMER ❌\n\nYou don't have permission"
                 await event.answer(reply_pop_up_alert, cache_time=0, alert=True)
 
         @tgbot.on(
@@ -984,13 +964,13 @@ with bot:
             if event.query.user_id == uid or event.query.user_id in SUDO_USERS:
                 text = (
                     f"""
-✘ **Perintah yang tersedia di tools** ✘
+✘ Perintah yang tersedia di tools ✘
 
-  »  **Perintah :** `{cmd}lang`
-  »  **Kegunaan : **Untuk Mengubah Bahasa.
+  »  Perintah : {cmd}lang
+  »  Kegunaan : Untuk Mengubah Bahasa.
 
-  »  **Perintah :** `{cmd}string`
-  »  **Kegunaan : **Untuk Membuat String Session.
+  »  Perintah : {cmd}string
+  »  Kegunaan : Untuk Membuat String Session.
 """)
                 await event.edit(
                     text,
@@ -998,7 +978,7 @@ with bot:
                     link_preview=True,
                     buttons=[Button.inline("ʙᴀᴄᴋ", data="gcback")])
             else:
-                reply_pop_up_alert = f"❌ DISCLAIMER ❌\n\nAnda Tidak Mempunyai Hak Untuk Menekan Tombol Button Ini"
+                reply_pop_up_alert = f"❌ DISCLAIMER ❌\n\n You don't have permission"
                 await event.answer(reply_pop_up_alert, cache_time=0, alert=True)
 
         @tgbot.on(events.CallbackQuery(data=b"close"))
@@ -1006,7 +986,7 @@ with bot:
             buttons = [
                 (custom.Button.inline("ᴍᴀɪɴ ᴍᴇɴᴜ", data="gcback"),),
             ]
-            await event.edit("**ᴍᴇɴᴜ ᴅɪᴛᴜᴛᴜᴘ**", file=logoyins, buttons=buttons)
+            await event.edit("ᴍᴇɴᴜ ᴅɪᴛᴜᴛᴜᴘ", file=logoyins, buttons=buttons)
 
         @tgbot.on(
             events.callbackquery.CallbackQuery(  # pylint:disable=E0602
@@ -1071,4 +1051,4 @@ with bot:
 
     except BaseException:
         LOGS.info(
-            f"KALO BOT LU NGECRASH, KLIK SAVE YANG DI POJOK KANAN BAWAH DAN KIRIM KE @kazusupportgrp » TAG @admin » Info By: Kazu-Userbot {BOT_VER}")
+            f"KALO BOT LU NGECRASH, KLIK SAVE YANG DI POJOK KANAN BAWAH DAN KIRIM KE @Lumieresupport » TAG @admin » Info By: ʟᴜᴍɪᴇʀᴇ ᴜsᴇʀʙᴏᴛ {BOT_VER}")
