@@ -1,21 +1,21 @@
 {
-  "name": "Kazu-Userbot",
-  "description": "[Kazu-Userbot] Selamat pakai, Luh songong gw Banting",
+  "name": "Lumiere-Userbot",
+  "description": "[Lumiere-Userbot] Buat senang senang doang",
   "logo": "https://telegra.ph/file/05c7982e106962b905ef4.jpg",
-  "keywords": ["telegram", "userbot", "Kazu-Userbot", "modular", "python"],
-  "repository": "https://github.com/ionmusic/Kazu-Userbot",
+  "keywords": ["telegram", "userbot", "Lumiere-Userbot", "modular", "python"],
+  "repository": "https://github.com/NotLumiere/Lumiere-Userbot",
   "stack": "container",
   "env": {
     "API_KEY": {
-      "description": "Dapatkan API KEY di Grup » https://t.me/kazusupportgrp » Lalu ketik /get api atau di web my.telegram.org Masukan yg APP ID Telegram",
+      "description": "Dapatkan API KEY di Grup » https://t.me/Lumieresupport » Lalu ketik /get api atau di web my.telegram.org Masukan yg APP ID Telegram",
       "required": true
     },
     "API_HASH": {
-      "description": "Dapatkan API Hash di Grup »  https://t.me/kazusupportgrp » Lalu ketik /get api atau di web my.telegram.org",
+      "description": "Dapatkan API Hash di Grup »  https://t.me/Lumieresupport » Lalu ketik /get api atau di web my.telegram.org",
       "required": true
     },
      "STRING_SESSION": {
-      "description": "Dapatkan String Session di Grup »  https://t.me/kazusupportgrp » Lalu ketik /get string",
+      "description": "Dapatkan String Session di Grup »  https://t.me/Lumieresupport » Lalu ketik /get string",
       "required": true
     },
     "HEROKU_APP_NAME": {
