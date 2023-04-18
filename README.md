@@ -1,11 +1,11 @@
   <h1 align="center"> 𝗟𝘂𝗺𝗶𝗲𝗿𝗲-𝗨𝘀𝗲𝗿𝗯𝗼𝘁 </h1>
 
-<a href="https://github.com/NotLumiere/Lumiere-ubot/commits"> <img src="https://img.shields.io/github/last-commit/NotLumiere/Lumiere-ubot?color=red&logo=github&logoColor=blue&style=for-the-badge" /></a>
-[![Open Source Love](https://badges.frapsoft.com/os/v2/open-source.png?v=103)](https://github.com/NotLumiere/Lumiere-ubot)
-[![Maintenance](https://img.shields.io/badge/Maintained%3F-Yes-blue)](https://github.com/NotLumiere/Lumiere-ubot/graphs/commit-activity)
-[![CodeQuality](https://img.shields.io/codacy/grade/a723cb464d5a4d25be3152b5d71de82d?color=blue&logo=codacy)](https://app.codacy.com/gh/NotLumiere/Lumiere-ubot/dashboard)
-[![GitHub Forks](https://img.shields.io/github/forks/NotLumiere/Lumiere-ubot?&logo=github)](https://github.com/NotLumiere/Lumiere-ubot/fork)
-[![GitHub Stars](https://img.shields.io/github/stars/NotLumiere/Lumiere-ubot?&logo=github)](https://github.com/NotLumiere/Lumiere-ubot/stargazers)
+<a href="https://github.com/NotLumiere/Lumiere-ubot/commits"> <img src="https://img.shields.io/github/last-commit/NotLumiere/Lumiere-Userbot?color=red&logo=github&logoColor=blue&style=for-the-badge" /></a>
+[![Open Source Love](https://badges.frapsoft.com/os/v2/open-source.png?v=103)](https://github.com/NotLumiere/Lumiere-Userbot)
+[![Maintenance](https://img.shields.io/badge/Maintained%3F-Yes-blue)](https://github.com/NotLumiere/Lumiere-Userbot/graphs/commit-activity)
+[![CodeQuality](https://img.shields.io/codacy/grade/a723cb464d5a4d25be3152b5d71de82d?color=blue&logo=codacy)](https://app.codacy.com/gh/NotLumiere/Lumiere-Userbot/dashboard)
+[![GitHub Forks](https://img.shields.io/github/forks/NotLumiere/Lumiere-Userbot?&logo=github)](https://github.com/NotLumiere/Lumiere-Userbot/fork)
+[![GitHub Stars](https://img.shields.io/github/stars/NotLumiere/Lumiere-Userbot?&logo=github)](https://github.com/NotLumiere/Lumiere-Userbot/stargazers)
 
 
 <p align="center">
@@ -47,9 +47,9 @@ Gunakan bot ini dengan risiko Anda sendiri, dan gunakan userbot ini dengan bijak
 ### Tutorial Deploy di VPS
 
 
- • `git clone https://github.com/Lumiere-Ubot`
+ • `git clone https://github.com/Lumiere-Userbot`
 
- • `cd Lumiere-Ubot`
+ • `cd Lumiere-Userbot`
 
  • `pip3 install -U -r requirements.txt`
 
@@ -61,7 +61,7 @@ Gunakan bot ini dengan risiko Anda sendiri, dan gunakan userbot ini dengan bijak
   - ketik ctrl + S
   - ctrl + X
 
- • `screen -S Lumiere-Ubot`
+ • `screen -S Lumiere-Userbot`
 
  • `bash start`
 
