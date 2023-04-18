@@ -71,13 +71,13 @@ Gunakan bot ini dengan risiko Anda sendiri, dan gunakan userbot ini dengan bijak
 <summary><b>🔗 Deploy To Heroku</b></summary>
 <br>
 
-<a href="https://dashboard.heroku.com/new?template=https://github.com/NotLumiere/Lumiere-ubot"><img src="https://www.herokucdn.com/deploy/button.svg"></a>
+<a href="https://dashboard.heroku.com/new?template=https://github.com/NotLumiere/Lumiere-Userbot"><img src="https://www.herokucdn.com/deploy/button.svg"></a>
 </div>
 
 </details>
 
 ## Updates & Support
-Follow Channel [@Lumiere](https://t.me/gabutanlu) untuk info Update bot dan Gabung Group [@Lumieresupport](https://t.me/Lumieresupport) untuk untuk diskusi, pelaporan bug, dan bantuan tentang Lumiere-Ubot.
+Follow Channel [@Lumiere](https://t.me/gabutanlu) untuk info Update bot dan Gabung Group [@Lumieresupport](https://t.me/Lumieresupport) untuk untuk diskusi, pelaporan bug, dan bantuan tentang Lumiere-Userbot.
 
 #### Special Thanks To [Everyone](https://github.com/mrismanaziz/Man-Userbot/graphs/contributors) Who Has Helped Make This Userbot Awesome!
 -  [AdekMaulana](https://github.com/adekmaulana) : ProjectBish
