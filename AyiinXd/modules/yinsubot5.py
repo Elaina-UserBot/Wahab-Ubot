@@ -89,9 +89,9 @@ CMD_HELP.update(
         \n\n  »  **Perintah :** `{cmd}ganteng`\
         \n  »  **Kegunaan : **Fakta Kalo Gua Ganteng\
         \n\n  »  **Perintah :** `{cmd}wibu`\
-        \n  »  **Kegunaan : **Lari tod ada wibu\
+        \n  »  **Kegunaan : **Ngatain wibu\
         \n\n  »  **Perintah :** `{cmd}senggol`\
-        \n  »  **Kegunaan : **Senggol dong tod\
+        \n  »  **Kegunaan : **Senggol dong bos\
         \n\n  »  **Perintah :** `P`\
         \n  »  **Kegunaan : **Bucin sopan\
         \n\n**Klo mau Req, kosa kata dari lu Bisa pake Module costum. Ketik** `{cmd}help costum`\
