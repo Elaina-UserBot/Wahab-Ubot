@@ -20,7 +20,7 @@ from AyiinXd.ayiin import ayiin_cmd, edit_or_reply
 
 
 kazuuserbot = "https://telegra.ph/file/762510fa43ef987980d55.jpg"
-asupung = "https://telegra.ph/file/82598bc741e3010339d4c.jpg"
+asupung = "https://telegra.ph/file/3a1c13d469901625e7c76.jpg"
 exorcist2 = "https://telegra.ph/file/f0383ed4de3a719e2eada.jpg"
 
 
@@ -76,11 +76,11 @@ async def _(yins):
         await edit_or_reply(yins, output)
 
 
-@ayiin_cmd(pattern="as(?: |$)(.*)")
+@ayiin_cmd(pattern="Naya(?: |$)(.*)")
 async def _(asupng):
     if asupng.chat_id in BLACKLIST_CHAT:
-        return await asupng.edit("**[ᴋᴏɴᴛᴏʟ]** - Perintah Itu Dilarang Di Gc Ini Goblok...")
-    await edit_or_reply(asupng, "`Asupan Sagapung...`")
+        return await asupng.edit("**[𝙱𝙻𝙾𝙲𝙺𝙴𝙳]** - Perintah Itu Dilarang Di Gc Ini.")
+    await edit_or_reply(asupng, "`Kynan Nih Boss Senggol Dong...`")
     sleep(1)
     text = str(asupng.pattern_match.group(1).split(" ", 1)[0])
     link = str(asupng.pattern_match.group(1).split(" ", 2)[0])
@@ -92,18 +92,18 @@ async def _(asupng):
         f"**ʀᴇǫᴜᴇsᴛ ʙʏ :** @{user.username}\n\n"
         f"**{ayiin}**\n"
         f"**╭✠━━━━━━❖━━━━━━✠╮**\n"
-        f"**               𝙺𝙰𝚉𝚄-𝚄𝚂𝙴𝚁𝙱𝙾𝚃**\n"
+        f"**               𝙽𝙰𝚈𝙰-𝙿𝚈𝚁𝙾**\n"
         f"**╰✠━━━━━━❖━━━━━━✠╯**\n\n"
         f"**⌲ 𝚁𝙴𝙿𝙾𝚂𝙸𝚃𝙾𝚁𝚈**\n"
         f"**⌲ {link_2} {link}**\n\n"
         f"**       𝙐𝙎𝙀𝙍𝘽𝙊𝙏 𝙋𝙍𝙀𝙈𝙄𝙐𝙈**\n"
         f"**╭✠━━━━━━❖━━━━━━✠╮**\n"
-        f"**          @punyaionnibos**\n"
+        f"**          @Kynansupport**\n"
         f"**╰✠━━━━━━❖━━━━━━✠╯**\n"
         f"**    𝙅𝘼𝙉𝙂𝘼𝙉 𝙇𝙐𝙋𝘼 𝙎𝙃𝘼𝙍𝙀 **\n\n"
-        f"**PUNYA KAZU-USERBOT**\n\n"
-        f"**𝙶𝚁𝙾𝚄𝙿 : @kazusupportgrp**\n"
-        f"**𝚂𝚄𝙿𝙿𝙾𝚁𝚃 : @punyaionnibos**\n"
+        f"**Punya 𝙽𝙰𝚈𝙰-𝙿𝚈𝚁𝙾**\n\n"
+        f"**𝙶𝚁𝙾𝚄𝙿 : @kynansupport**\n"
+        f"**𝚂𝚄𝙿𝙿𝙾𝚁𝚃 : @kontenfilm**\n"
     )
     if image:
         try:
@@ -163,11 +163,11 @@ async def yinscollab(exor):
         await edit_or_reply(exor, output)
 
 
-@ayiin_cmd(pattern="^As(?: |$)(.*)")
+@ayiin_cmd(pattern="^Naya(?: |$)(.*)")
 async def _(asupng):
     if asupng.chat_id in BLACKLIST_CHAT:
-        return await asupng.edit("**[ᴋᴏɴᴛᴏʟ]** - Perintah Itu Dilarang Di Gc Ini Goblok...")
-    await edit_or_reply(asupng, "`Asupan Sagapung...`")
+        return await asupng.edit("**[𝙱𝙻𝙾𝙲𝙺𝙴𝙳]** - Perintah Itu Dilarang Di Gc Ini.")
+    await edit_or_reply(asupng, "`Kynan Nih Boss Senggol Dong...`")
     sleep(1)
     link = asupng.pattern_match.group(1)
     image = asupung
@@ -175,18 +175,18 @@ async def _(asupng):
         f"**ʀᴇǫᴜᴇsᴛ ʙʏ :** @{user.username}\n\n"
         f"**{ayiin}**\n"
         f"**╭✠━━━━━━❖━━━━━━✠╮**\n"
-        f"**               𝙺𝙰𝚉𝚄-𝚄𝚂𝙴𝚁𝙱𝙾𝚃**\n"
+        f"**               𝙽𝙰𝚈𝙰-𝙿𝚈𝚁𝙾**\n"
         f"**╰✠━━━━━━❖━━━━━━✠╯**\n\n"
         f"**⌲ 𝚁𝙴𝙿𝙾𝚂𝙸𝚃𝙾𝚁𝚈**\n"
         f"**⌲ {link_2} {link}**\n\n"
         f"**       𝙐𝙎𝙀𝙍𝘽𝙊𝙏 𝙋𝙍𝙀𝙈𝙄𝙐𝙈**\n"
         f"**╭✠━━━━━━❖━━━━━━✠╮**\n"
-        f"**          @punyaionnibos**\n"
+        f"**          @Kynansupport**\n"
         f"**╰✠━━━━━━❖━━━━━━✠╯**\n"
         f"**    𝙅𝘼𝙉𝙂𝘼𝙉 𝙇𝙐𝙋𝘼 𝙎𝙃𝘼𝙍𝙀 **\n\n"
-        f"**PUNYA KAZU-USERBOT**\n\n"
-        f"**𝙶𝚁𝙾𝚄𝙿 : @kazusupportgrp**\n"
-        f"**𝚂𝚄𝙿𝙿𝙾𝚁𝚃 : @punyaionnibos**\n"
+        f"**Punya 𝙽𝙰𝚈𝙰-𝙿𝚈𝚁𝙾**\n\n"
+        f"**𝙶𝚁𝙾𝚄𝙿 : @kynansupport**\n"
+        f"**𝚂𝚄𝙿𝙿𝙾𝚁𝚃 : @kontenfilm**\n"
     )
     if image:
         try:
@@ -217,7 +217,7 @@ CMD_HELP.update(
         \n\n  »  **Perintah :** `{cmd}Kazu`\
         \n  »  **Kegunaan :** Untuk Mendapatkan Info Tentang 𝙺𝙰𝚉𝚄-𝚄𝚂𝙴𝚁𝙱𝙾𝚃.\
         \n\n  »  **Perintah :** `{cmd}Naya`\
-        \n  »  **Kegunaan :** Untuk Mendapatkan Info Tentang Naya-Pyro.\
+        \n  »  **Kegunaan :** Untuk Mendapatkan Info Tentang 𝙽𝙰𝚈𝙰-𝙿𝚈𝚁𝙾.\
     "
     }
 )
