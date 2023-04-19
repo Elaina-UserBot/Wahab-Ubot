@@ -58,7 +58,7 @@ async def _(d):
 
 CMD_HELP.update(
     {
-        "Fun6": f"**Plugin : **`Fun6`\
+        "fun6": f"**Plugin : **`Lumiere-Userbot`\
         \n\n  »  **Perintah :** `{cmd}cacad`\
         \n  »  **Kegunaan :** Coba Sendiri Tod.\
         \n\n  »  **Perintah :** `{cmd}hayolo`\
