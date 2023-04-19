@@ -284,11 +284,11 @@ CMD_HELP.update(
 
 CMD_HELP.update(
     {
-        "repo": f"**Plugin : **`Repository Uputt-Userbot`\
+        "repo": f"**Plugin : **`Repository Lumiere-Userbot`\
         \n\n  »  **Perintah :** `{cmd}repo`\
-        \n  »  **Kegunaan : **Menampilan link Repository Uputt-Userbot\
+        \n  »  **Kegunaan : **Menampilan link Repository Lumiere-Userbot\
         \n\n  »  **Perintah :** `{cmd}string`\
-        \n  »  **Kegunaan : **Menampilan link String Uputt-Userbot\
+        \n  »  **Kegunaan : **Menampilan link String Lumiere-Userbot\
     "
     }
 )
