@@ -600,7 +600,7 @@ async def fonts(yins):
 
 CMD_HELP.update(
     {
-        "yinsfont": f"**Plugin : **`kazufont`\
+        "fonts": f"**Plugin : **`Mengubah font menggunakan Userbot`\
         \n\n  »  **Perintah :** `{cmd}font` `<nama font>` `<teks/balas ke pesan>`\
         \n  »  **Kegunaan : **Membuat Text dengan Fonts Style.\
         \n\n  »  **Perintah :** `{cmd}lf`\
