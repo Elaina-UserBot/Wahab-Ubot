@@ -41,7 +41,7 @@ Y_BUTTONS = [
            custom.Button.url("Rᴇᴘʟɪᴛ Sᴛʀɪɴɢ", "https://repl.it/@AyiinXd/AyiinString?lite=1&outputonly=1"),
         ],
         [
-           custom.Button.url("Sᴜᴘᴘᴏʀᴛ", "https://t.me/AyiinXdSupport"),
+           custom.Button.url("Sᴜᴘᴘᴏʀᴛ", "https://t.me/Lumieresupport"),
         ],
     ]
 
