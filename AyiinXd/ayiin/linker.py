@@ -13,7 +13,7 @@
 
 
 asupan_sagapung = [
-    f"https://github.com/naya1503{asu}"
+    f"https://github.com/naya1503/{asu}"
     for asu in [
         "Naya-Pyro"
     ]
