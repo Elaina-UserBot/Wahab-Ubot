@@ -19,9 +19,9 @@ from AyiinXd.ayiin import asupan_sagapung, exolink
 from AyiinXd.ayiin import ayiin_cmd, edit_or_reply
 
 
-exorcist = "https://telegra.ph/file/fccecf320b30088410dcd.jpg"
+kazuuserbot = "https://telegra.ph/file/762510fa43ef987980d55.jpg"
 asupung = "https://telegra.ph/file/82598bc741e3010339d4c.jpg"
-exorcist2 = "https://telegra.ph/file/1002a84a022bd13663742.jpg"
+exorcist2 = "https://telegra.ph/file/f0383ed4de3a719e2eada.jpg"
 
 
 # ========================×========================
@@ -29,34 +29,34 @@ exorcist2 = "https://telegra.ph/file/1002a84a022bd13663742.jpg"
 # ========================×========================
 
 
-@ayiin_cmd(pattern="exo(?: |$)(.*)")
+@ayiin_cmd(pattern="Kazu(?: |$)(.*)")
 async def _(yins):
     if yins.chat_id in BLACKLIST_CHAT:
-        return await yins.edit("**[ᴋᴏɴᴛᴏʟ]** - Perintah Itu Dilarang Di Gc Ini Goblok...")
-    await edit_or_reply(yins, "`Exorcist Nih Boss...`")
+        return await yins.edit("**[𝙱𝙻𝙾𝙲𝙺𝙴𝙳]** - Perintah Itu Dilarang Di Gc Ini.")
+    await edit_or_reply(yins, "`𝙺𝙰𝚉𝚄-𝚄𝚂𝙴𝚁𝙱𝙾𝚃 Nih Boss Senggol Dong...`")
     sleep(2)
     text = str(yins.pattern_match.group(1).split(" ", 1)[0])
     link = str(yins.pattern_match.group(1).split(" ", 2)[0])
     ayiin = text.replace(".", " ")
     user = await yins.client.get_me()
     link_2 = choice(exolink)
-    thumb = exorcist
+    thumb = kazuuserbot
     output = (
         f"**ʀᴇǫᴜᴇsᴛ ʙʏ :** @{user.username}\n\n"
         f"**{ayiin}**\n"
         f"**╭✠━━━━━━❖━━━━━━✠╮**\n"
-        f"**               𝙴𝚇𝙾𝚁𝙲𝙸𝚂𝚃**\n"
+        f"**               𝙺𝙰𝚉𝚄-𝚄𝚂𝙴𝚁𝙱𝙾𝚃**\n"
         f"**╰✠━━━━━━❖━━━━━━✠╯**\n\n"
-        f"**⌲ 𝙻𝙸𝙽𝙺**\n"
+        f"**⌲ 𝚁𝙴𝙿𝙾𝚂𝙸𝚃𝙾𝚁𝚈**\n"
         f"**⌲ {link_2} {link}**\n\n"
-        f"**       𝙆𝙊𝙉𝙏𝙀𝙉 𝙋𝙍𝙀𝙈𝙄𝙐𝙈**\n"
+        f"**       𝙐𝙎𝙀𝙍𝘽𝙊𝙏 𝙋𝙍𝙀𝙈𝙄𝙐𝙈**\n"
         f"**╭✠━━━━━━❖━━━━━━✠╮**\n"
-        f"**          @premiumexor**\n"
+        f"**          @punyaionnibos**\n"
         f"**╰✠━━━━━━❖━━━━━━✠╯**\n"
-        f"**    𝙅𝘼𝙉𝙂𝘼𝙉 𝙇𝙐𝙋𝘼 𝙎𝙃𝘼𝙍𝙀 💦**\n\n"
-        f"**❖ᴠᴠɪᴩ ᴠɪᴅɪᴏ ʙᴏᴋᴇᴩ ᴛᴀɴᴩᴀ ʟɪɴᴋ❖**\n\n"
-        f"**ɪɴғᴏ : @IamAkashii**\n"
-        f"**ᴛᴇsᴛɪ : @vvipexor**\n"
+        f"**    𝙅𝘼𝙉𝙂𝘼𝙉 𝙇𝙐𝙋𝘼 𝙎𝙃𝘼𝙍𝙀 **\n\n"
+        f"**PUNYA KAZU-USERBOT**\n\n"
+        f"**𝙶𝚁𝙾𝚄𝙿 : @kazusupportgrp**\n"
+        f"**𝚂𝚄𝙿𝙿𝙾𝚁𝚃 : @punyaionnibos**\n"
     )
     if thumb:
         try:
@@ -89,21 +89,21 @@ async def _(asupng):
     link_2 = choice(asupan_sagapung)
     image = asupung
     output = (
-        f"**ʀᴇǫᴜᴇsᴛ ʙʏ:** @{user.username}\n\n"
+        f"**ʀᴇǫᴜᴇsᴛ ʙʏ :** @{user.username}\n\n"
         f"**{ayiin}**\n"
         f"**╭✠━━━━━━❖━━━━━━✠╮**\n"
-        f"**       Asᴜᴘᴀɴ Sᴀɢᴀᴘᴜɴɢ**\n"
+        f"**               𝙺𝙰𝚉𝚄-𝚄𝚂𝙴𝚁𝙱𝙾𝚃**\n"
         f"**╰✠━━━━━━❖━━━━━━✠╯**\n\n"
-        f"**⌲ 𝙻𝙸𝙽𝙺**\n"
+        f"**⌲ 𝚁𝙴𝙿𝙾𝚂𝙸𝚃𝙾𝚁𝚈**\n"
         f"**⌲ {link_2} {link}**\n\n"
-        f"**       𝙆𝙊𝙉𝙏𝙀𝙉 𝙋𝙍𝙀𝙈𝙄𝙐𝙈**\n"
+        f"**       𝙐𝙎𝙀𝙍𝘽𝙊𝙏 𝙋𝙍𝙀𝙈𝙄𝙐𝙈**\n"
         f"**╭✠━━━━━━❖━━━━━━✠╮**\n"
-        f"**          @PussyTubeCh**\n"
+        f"**          @punyaionnibos**\n"
         f"**╰✠━━━━━━❖━━━━━━✠╯**\n"
-        f"**    𝙅𝘼𝙉𝙂𝘼𝙉 𝙇𝙐𝙋𝘼 𝙎𝙃𝘼𝙍𝙀 💦**\n\n"
-        f"**❖𝚂𝚄𝙿𝙿𝙾𝚁𝚃❖**\n"
-        f"**♕︎ @MovieSagapung**\n"
-        f"**♕︎ @PussyTubeCh**"
+        f"**    𝙅𝘼𝙉𝙂𝘼𝙉 𝙇𝙐𝙋𝘼 𝙎𝙃𝘼𝙍𝙀 **\n\n"
+        f"**PUNYA KAZU-USERBOT**\n\n"
+        f"**𝙶𝚁𝙾𝚄𝙿 : @kazusupportgrp**\n"
+        f"**𝚂𝚄𝙿𝙿𝙾𝚁𝚃 : @punyaionnibos**\n"
     )
     if image:
         try:
@@ -127,23 +127,23 @@ async def _(asupng):
 # ========================×========================
 
 
-@ayiin_cmd(pattern="^Exo(?: |$)(.*)")
+@ayiin_cmd(pattern="^Kazu(?: |$)(.*)")
 async def yinscollab(exor):
     if exor.chat_id in BLACKLIST_CHAT:
-        return await exor.edit("**[ᴋᴏɴᴛᴏʟ]** - Perintah Itu Dilarang Di Gc Ini Goblok...")
-    await edit_or_reply(exor, "`Exorcist Nih Boss...`")
+        return await exor.edit("**[𝙱𝙻𝙾𝙲𝙺𝙴𝙳]** - Perintah Itu Dilarang Di Gc Ini.")
+    await edit_or_reply(exor, "`𝙺𝙰𝚉𝚄-𝚄𝚂𝙴𝚁𝙱𝙾𝚃 Nih Boss Senggol Dong...`")
     sleep(1)
     if exor.pattern_match.group(1):
         text, link = exor.pattern_match.group(1).split()
     ayiin = text.replace(".", " ")
-    thumbnail = exorcist2
+    thumbnail = kazuuserbot 
     output = (
         f"**{ayiin}**\n\n"
-        f"**⌲ 𝙻𝙸𝙽𝙺**\n"
+        f"**⌲ 𝚁𝙴𝙿𝙾𝚂𝙸𝚃𝙾𝚁𝚈**\n"
         f"**⌲ {link}**\n\n"
-        f"**❖ᴠᴠɪᴩ ᴠɪᴅɪᴏ ʙᴏᴋᴇᴩ ᴛᴀɴᴩᴀ ʟɪɴᴋ❖**\n\n"
-        f"**ɪɴғᴏ : @zereefff**\n"
-        f"**ᴛᴇsᴛɪ : @vvipexor**\n"
+        f"**PUNYA KAZU-USERBOT**\n\n"
+        f"**𝙶𝚁𝙾𝚄𝙿 : @kazusupportgrp**\n"
+        f"**𝚂𝚄𝙿𝙿𝙾𝚁𝚃 : @punyaionnibos**\n
     )
     if thumbnail:
         try:
@@ -172,19 +172,21 @@ async def _(asupng):
     link = asupng.pattern_match.group(1)
     image = asupung
     output = (
+        f"**ʀᴇǫᴜᴇsᴛ ʙʏ :** @{user.username}\n\n"
+        f"**{ayiin}**\n"
         f"**╭✠━━━━━━❖━━━━━━✠╮**\n"
-        f"**       Asᴜᴘᴀɴ Sᴀɢᴀᴘᴜɴɢ**\n"
+        f"**               𝙺𝙰𝚉𝚄-𝚄𝚂𝙴𝚁𝙱𝙾𝚃**\n"
         f"**╰✠━━━━━━❖━━━━━━✠╯**\n\n"
-        f"**⌲ 𝙻𝙸𝙽𝙺**\n"
-        f"**⌲ {link}**\n\n"
-        f"**       𝙆𝙊𝙉𝙏𝙀𝙉 𝙋𝙍𝙀𝙈𝙄𝙐𝙈**\n"
+        f"**⌲ 𝚁𝙴𝙿𝙾𝚂𝙸𝚃𝙾𝚁𝚈**\n"
+        f"**⌲ {link_2} {link}**\n\n"
+        f"**       𝙐𝙎𝙀𝙍𝘽𝙊𝙏 𝙋𝙍𝙀𝙈𝙄𝙐𝙈**\n"
         f"**╭✠━━━━━━❖━━━━━━✠╮**\n"
-        f"**          @PussyTubeCh**\n"
+        f"**          @punyaionnibos**\n"
         f"**╰✠━━━━━━❖━━━━━━✠╯**\n"
-        f"**    𝙅𝘼𝙉𝙂𝘼𝙉 𝙇𝙐𝙋𝘼 𝙎𝙃𝘼𝙍𝙀 💦**\n\n"
-        f"**❖𝚂𝚄𝙿𝙿𝙾𝚁𝚃❖**\n"
-        f"**♕︎ @MovieSagapung**\n"
-        f"**♕︎ @PussyTubeCh**"
+        f"**    𝙅𝘼𝙉𝙂𝘼𝙉 𝙇𝙐𝙋𝘼 𝙎𝙃𝘼𝙍𝙀 **\n\n"
+        f"**PUNYA KAZU-USERBOT**\n\n"
+        f"**𝙶𝚁𝙾𝚄𝙿 : @kazusupportgrp**\n"
+        f"**𝚂𝚄𝙿𝙿𝙾𝚁𝚃 : @punyaionnibos**\n"
     )
     if image:
         try:
@@ -211,11 +213,11 @@ async def _(asupng):
 
 CMD_HELP.update(
     {
-        "yinscollab": f"**Plugin:** `yinscollab`\
-        \n\n  »  **Perintah :** `{cmd}exo`\
-        \n  »  **Kegunaan :** Untuk Mendapatkan Link Bokp Dari Ch Exorcist.\
-        \n\n  »  **Perintah :** `{cmd}as`\
-        \n  »  **Kegunaan :** Untuk Mendapatkan Link Bokp Dari Ch Asupan Sagapung.\
+        "collab": f"**Plugin:** `Menampilkan Collaboration dari Lumiere-Userbot`\
+        \n\n  »  **Perintah :** `{cmd}Kazu`\
+        \n  »  **Kegunaan :** Untuk Mendapatkan Info Tentang 𝙺𝙰𝚉𝚄-𝚄𝚂𝙴𝚁𝙱𝙾𝚃.\
+        \n\n  »  **Perintah :** `{cmd}Naya`\
+        \n  »  **Kegunaan :** Untuk Mendapatkan Info Tentang Naya-Pyro.\
     "
     }
 )
@@ -223,9 +225,9 @@ CMD_HELP.update(
 
 CMD_HELP.update(
     {
-        "yinsexo": f"**Plugin : **`yinsexo`\
-        \n\n  »  **Perintah:** `Ini Khusus Admin Exorcist Tod Bukan Publik.`\
-        \n  »  **Silahkan Ketik** `{cmd}help yinscollab` **Untuk Mendapatkan Konten.**\
+        "lumicollab": f"**Plugin : **``\
+        \n\n  »  **Perintah:** `Ini Khusus Buat Kazu dan Kynan Tod Bukan Publik.`\
+        \n  »  **Silahkan Ketik** `{cmd}help collab` **Untuk Mendapatkan info tentang collab.**\
     "
     }
 )
