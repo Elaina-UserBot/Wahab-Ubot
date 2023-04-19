@@ -209,9 +209,9 @@ CMD_HELP.update(
     {
         "update": f"**Plugin : **`update`\
         \n\n  »  **Perintah :** `{cmd}update`\
-        \n  »  **Kegunaan : **Untuk Melihat Pembaruan Terbaru Kazu-Userbot.\
+        \n  »  **Kegunaan : **Untuk Melihat Pembaruan Terbaru Lumiere-Userbot.\
         \n\n  »  **Perintah :** `{cmd}update deploy`\
-        \n  »  **Kegunaan : **Untuk MengUpdate Fitur Terbaru Dari Kazu-Userbot.\
+        \n  »  **Kegunaan : **Untuk MengUpdate Fitur Terbaru Dari Lumiere-Userbot.\
     "
     }
 )
