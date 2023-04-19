@@ -50,21 +50,21 @@ async def get_readable_time(seconds: int) -> str:
 async def _(ping):
     uptime = await get_readable_time((time.time() - StartTime))
     start = datetime.now()
-    Ayiin = await edit_or_reply(ping, "**✩**")
-    await Ayiin.edit("**㋡㋡**")
-    await Ayiin.edit("**㋡㋡㋡**")
-    await Ayiin.edit("**㋡㋡㋡㋡**")
-    await Ayiin.edit("**㋡㋡㋡㋡㋡**")
+    Ayiin = await edit_or_reply(ping, "**×**")
+    await Ayiin.edit("**••**")
+    await Ayiin.edit("**•••**")
+    await Ayiin.edit("**••••**")
+    await Ayiin.edit("**•••••**")
     end = datetime.now()
     duration = (end - start).microseconds / 1000
     user = await ping.client.get_me()
-    await Ayiin.edit("🥵")
+    await Ayiin.edit("📡")
     sleep(3)
     await Ayiin.edit(
-        f"**㋡ 𝙺𝙰𝚉𝚄-𝚄𝚂𝙴𝚁𝙱𝙾𝚃 ㋡**\n\n"
-        f"㋡ **𝙿𝙸𝙽𝙶𝙴𝚁 :** `%sms`\n"
-        f"㋡ **𝚄𝙿𝚃𝙸𝙼𝙴 :** `{uptime}` \n"
-        f"㋡ **𝙾𝚆𝙽𝙴𝚁 :** [{user.first_name}](tg://user?id={user.id})" % (duration)
+        f"**× 𝙻𝚄𝙼𝙸𝙴𝚁𝙴-𝚄𝚂𝙴𝚁𝙱𝙾𝚃 ×**\n\n"
+        f"×× **𝙿𝙸𝙽𝙶𝙴𝚁 :** `%sms`\n"
+        f"×× **𝚄𝙿𝚃𝙸𝙼𝙴 :** `{uptime}` \n"
+        f"×× **𝙾𝚆𝙽𝙴𝚁 :** [{user.first_name}](tg://user?id={user.id})" % (duration)
     )
 
 
@@ -127,32 +127,32 @@ async def _(pong):
 async def _(pong):
     uptime = await get_readable_time((time.time() - StartTime))
     start = datetime.now()
-    kping = await edit_or_reply(pong, "8✊===D")
-    await kping.edit("8=✊==D")
-    await kping.edit("8==✊=D")
-    await kping.edit("8===✊D")
-    await kping.edit("8==✊=D")
-    await kping.edit("8=✊==D")
-    await kping.edit("8✊===D")
-    await kping.edit("8=✊==D")
-    await kping.edit("8==✊=D")
-    await kping.edit("8===✊D")
-    await kping.edit("8==✊=D")
-    await kping.edit("8=✊==D")
-    await kping.edit("8✊===D")
-    await kping.edit("8=✊==D")
-    await kping.edit("8==✊=D")
-    await kping.edit("8===✊D")
-    await kping.edit("8===✊D💦")
-    await kping.edit("8====D💦💦")
-    await kping.edit("**KAZUUUUU**")
-    await kping.edit("**DISINI KAZU YAGESYA.....**")
+    kping = await edit_or_reply(pong, "🤖")
+    await kping.edit("🪫")
+    await kping.edit("🔌")
+    await kping.edit("🔋")
+    await kping.edit("🕹️")
+    await kping.edit("📡.")
+    await kping.edit("📡..")
+    await kping.edit("📡...")
+    await kping.edit("📡....")
+    await kping.edit("📡.....")
+    await kping.edit(".🛰️")
+    await kping.edit("..🛰️")
+    await kping.edit("...🛰️")
+    await kping.edit("....🛰️")
+    await kping.edit(".....🛰️")
+    await kping.edit("**Connecting....**")
+    await kping.edit("**Connected!!**")
+    await kping.edit("📡....🛰️")
+    await kping.edit("**Logging into server....**")
+    await kping.edit("**login successfully!**")
     end = datetime.now()
     duration = (end - start).microseconds / 1000
-    await kping.edit("🥵")
+    await kping.edit("✅")
     sleep(3)
     await kping.edit(
-        f"**𝙺𝙰𝚉𝚄 𝚃𝙰𝙼𝙿𝙰𝙽!! 🥵**\n**𝙿𝙸𝙽𝙶𝙴𝚁** : %sms\n**𝙱𝙾𝚃 𝚄𝙿𝚃𝙸𝙼𝙴** : {uptime}🕛" % (duration)
+        f"**×𝙻𝚄𝙼𝙸𝙴𝚁𝙴-𝚄𝚂𝙴𝚁𝙱𝙾𝚃× **\n**𝙿𝙸𝙽𝙶𝙴𝚁** : %sms\n**𝙱𝙾𝚃 𝚄𝙿𝚃𝙸𝙼𝙴** : {uptime}🕛" % (duration)
     )
 
 
