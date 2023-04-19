@@ -29,7 +29,7 @@ async def couple(bucin):
         bucinan = [
             coupl
             async for coupl in bucin.client.iter_messages(
-                "@ppayiinuserbot", filter=InputMessagesFilterPhotos
+                "@pplumiuserbot", filter=InputMessagesFilterPhotos
             )
         ]
         cang = await bucin.client.get_me()
@@ -45,7 +45,7 @@ async def couple(bucin):
 
 CMD_HELP.update(
     {
-        "yinscouple": f"**Plugin :** `yinscouple`\
+        "couple": f"**Plugin :** `mencari pp couple`\
         \n\n  »  **Perintah :** `{cmd}couple`\
         \n  »  **Kegunaan :** __Untuk Mendapatkan Foto Couple Secara Random.__\
     "
