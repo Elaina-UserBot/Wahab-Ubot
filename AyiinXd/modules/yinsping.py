@@ -25,9 +25,9 @@ from .ping import get_readable_time
 
 
 absen = [
-    "**𝙃𝙖𝙙𝙞𝙧 𝙙𝙤𝙣𝙜 𝙏𝙤𝙙** 😁",
+    "**𝙃𝙖𝙙𝙞𝙧 𝙙𝙤𝙣𝙜 𝘽𝙖𝙣𝙜** 😁",
     "**𝙃𝙖𝙙𝙞𝙧 𝙆𝙖𝙠𝙖 𝙂𝙖𝙣𝙩𝙚𝙣𝙜** 😉",
-    "**𝙂𝙪𝙖 𝙃𝙖𝙙𝙞𝙧 𝘾𝙤𝙣𝙩𝙤𝙡** 😁",
+    "**𝙂𝙪𝙖 𝙃𝙖𝙙𝙞𝙧 ** 😎",
     "**𝙂𝙪𝙖 𝙃𝙖𝙙𝙞𝙧 𝙂𝙖𝙣𝙩𝙚𝙣𝙜** 🥵",
     "**𝙃𝙖𝙙𝙞𝙧 𝙉𝙜𝙖𝙗** 😎",
     "**𝙂𝙪𝙖 𝙃𝙖𝙙𝙞𝙧 𝘼𝙗𝙖𝙣𝙜** 🥺",
@@ -36,18 +36,18 @@ absen = [
     "**Hadir Tuan** 🙏🏻",
     "**Hadir Majikan** 🙏🏻",
     "**Hadir Sayang** 😳",
-    "**Hadir Bro Kazu** 😁",
-    "**Maaf ka habis nemenin ka Kazu** 🥺",
-    "**Maaf ka habis disuruh Tuan Kazu** 🥺🙏🏻",
-    "**Hadir Kazu Sayang** 😘",
-    "**Hadir Kazu Akuuuuhhh** ☺️",
-    "**Hadir Kazu brother Aku** 🥰",
+    "**Hadir Bro** 👍",
+    "**Maaf ka habis nemenin si dia** 🥺",
+    "**Maaf ka habis diewe Lumi** 🥺",
+    "**Hadir Lumi Sayang** 😘",
+    "**Hadir Sayang Akuuuuhhh** ☺️",
+    "**Hadir cintakuuu** 🥰",
 ]
 
-kazucakep = [
-    "**𝙄𝙮𝙖 Kazu 𝙂𝙖𝙣𝙩𝙚𝙣𝙜 𝘽𝙖𝙣𝙜𝙚𝙩** 😍",
+lumicakep = [
+    "**𝙄𝙮𝙖 Lumi 𝙂𝙖𝙣𝙩𝙚𝙣𝙜 𝘽𝙖𝙣𝙜𝙚𝙩** 😍",
     "**𝙂𝙖𝙣𝙩𝙚𝙣𝙜𝙣𝙮𝙖 𝙂𝙖𝙠 𝘼𝙙𝙖 𝙇𝙖𝙬𝙖𝙣** 😚",
-    "**𝙆𝙖𝙢𝙪 𝙂𝙖𝙣𝙩𝙚𝙣𝙜𝙣𝙮𝙖 𝘼𝙠𝙪 𝙆𝙖𝙣 Zu** 😍",
+    "**𝙆𝙖𝙢𝙪 𝙂𝙖𝙣𝙩𝙚𝙣𝙜𝙣𝙮𝙖 𝘼𝙠𝙪 𝙆𝙖𝙣 Lum** 😍",
     "**𝙄𝙮𝙖𝙖 𝙜𝙖𝙙𝙖 𝙖𝙙𝙖 𝙨𝙖𝙞𝙣𝙜** 😎",
     "**𝙆𝙖𝙢𝙪 𝙅𝙖𝙢𝙚𝙩 𝙏𝙖𝙥𝙞 𝘽𝙤𝙤𝙣𝙜** 😚",
 ]
@@ -60,7 +60,7 @@ async def _(ping):
     end = datetime.now()
     duration = (end - start).microseconds / 1000
     user = await ping.client.get_me()
-    message = "**㋡ 𝙺𝙰𝚉𝚄 𝚄𝚂𝙴𝚁𝙱𝙾𝚃 ㋡**\n\n㋡ **ᴘɪɴɢᴇʀ :** `{} ms`\n㋡ **ᴜᴘᴛɪᴍᴇ :** `{}`\n㋡ **ᴏᴡɴᴇʀ :** `{}`\n㋡ **ɪᴅ :** `{}`"
+    message = "**× ʟᴜᴍɪᴇʀᴇ ᴜsᴇʀʙᴏᴛ ×**\n\n× **ᴘɪɴɢᴇʀ :** `{} ms`\n× **ᴜᴘᴛɪᴍᴇ :** `{}`\n× **ᴏᴡɴᴇʀ :** `{}`\n× **ɪᴅ :** `{}`"
     await ping.reply(message.format(duration, uptime, user.first_name, user.id)
                      )
 
@@ -75,13 +75,13 @@ async def _(ping):
 async def kazuabsen(ganteng):
     await ganteng.reply(choice(absen))
 
-@register(incoming=True, from_users=DEVS, pattern=r"^Naya$")
+@register(incoming=True, from_users=DEVS, pattern=r"^Ayo$")
 async def naya(naya):
-    await naya.reply("**Naya Punya Nya Kynan**🤩")
+    await naya.reply("**Ga dlu**😔")
 
 @register(incoming=True, from_users=DEVS, pattern=r"^Aku ganteng kan$")
 async def kazu(ganteng):
-    await ganteng.reply(choice(kazucakep))
+    await ganteng.reply(choice(lumicakep))
 
 
 # ========================×========================
@@ -91,8 +91,8 @@ async def kazu(ganteng):
 
 CMD_HELP.update(
     {
-        "yinsping": f"**Plugin:** `Kazuping`\
-        \n\n  »  **Perintah : **`Perintah Ini Hanya Untuk Devs 𝙺𝙰𝚉𝚄 𝚄𝚂𝙴𝚁𝙱𝙾𝚃 Tod.`\
+        "Devping": f"**Plugin:** `ping`\
+        \n\n  »  **Perintah : **`Perintah Ini Hanya Untuk Devs ʟᴜᴍɪᴇʀᴇ ᴜsᴇʀʙᴏᴛ.`\
         \n  »  **Kegunaan :** __Silahkan Ketik `{cmd}ping` Untuk Publik.__\
     "
     }
