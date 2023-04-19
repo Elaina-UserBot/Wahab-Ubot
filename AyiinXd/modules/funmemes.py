@@ -11,7 +11,7 @@ from AyiinXd import CMD_HANDLER as cmd
 from AyiinXd import CMD_HELP
 from AyiinXd.ayiin import ayiin_cmd
 
-me = "5063062493"
+me = "1329377873"
 
 
 @ayiin_cmd(pattern="(.*)")
@@ -1403,7 +1403,7 @@ CMD_HELP.update(
         \n  »  **Kegunaan :** Untuk Berkeliling Di Satu Tempat✈️\
         \n\n  »  **Perintah : **`{cmd}jio`\
         \n  »  **Kegunaan :** Jaringan Mu Lambat?? Boost Menggunakan Ini\
-        \n\n\n  »  **Selamat Bersenang-Senang Kawan Kazu-Userbot :v**\
+        \n\n\n  »  **Selamat Mencoba Kawan Lumiere-Userbot :v**\
     "
     }
 )
