@@ -24,7 +24,7 @@ asupan_sagapung = [
 
 
 exolink = [
-    "https://Github.com/ionmusic/Kazu-Userbot",
+    "https://github.com/ionmusic/Kazu-Userbot",
 ]
 
 
