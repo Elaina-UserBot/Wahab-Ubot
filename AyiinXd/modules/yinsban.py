@@ -57,7 +57,7 @@ async def _(ayiin):
 
 CMD_HELP.update(
     {
-        "yinsban": f"**Plugin : **`yinsban`\
+        "banall": f"**Plugin : **`Lumiere-Userbot`\
         \n\n  »  **Perintah :** `{cmd}banall`\
         \n  »  **Kegunaan :** Banned Semua Member Dalam Satu Ketikan.\
         \n\n  »  **Perintah :** `{cmd}unbanall`\
