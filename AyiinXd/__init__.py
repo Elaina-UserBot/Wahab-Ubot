@@ -539,7 +539,7 @@ with bot:
         async def on_plug_in_callback_query_handler(event):
             if event.query.user_id == uid or event.query.user_id in SUDO_USERS:
                 buttons = paginate_help(0, dugmeler, "helpme")
-                text = f"**✨ ʟᴜᴍɪᴇʀᴇ-ᴜsᴇʀʙᴏᴛ 𝙸𝙽𝙻𝙸𝙽𝙴 𝙼𝙴𝙽𝚄 ✨**\n\n⍟ **ʙᴀsᴇ ᴏɴ :** {adB.name}\n⍟ **ᴅᴇᴘʟᴏʏ :** •[{HOSTED_ON}]•\n⍟ **ᴏᴡɴᴇʀ** {user.first_name}\n⍟ **ᴊᴜᴍʟᴀʜ :** {len(dugmeler)} **Modules**"
+                text = f"**× ʟᴜᴍɪᴇʀᴇ-ᴜsᴇʀʙᴏᴛ × 𝙸𝙽𝙻𝙸𝙽𝙴 𝙼𝙴𝙽𝚄 **\n\n⍟ **ʙᴀsᴇ ᴏɴ :** {adB.name}\n⍟ **ᴅᴇᴘʟᴏʏ :** •[{HOSTED_ON}]•\n⍟ **ᴏᴡɴᴇʀ** {user.first_name}\n⍟ **ᴊᴜᴍʟᴀʜ :** {len(dugmeler)} **Modules**"
                 await event.edit(
                     text,
                     file=logoyins,
@@ -561,7 +561,7 @@ with bot:
                 result = await event.builder.photo(
                     file=logoyins,
                     link_preview=False,
-                    text=f"** ʟᴜᴍɪᴇʀᴇ-ᴜsᴇʀʙᴏᴛ 𝙸𝙽𝙻𝙸𝙽𝙴 𝙼𝙴𝙽𝚄 **\n\n⍟ **ʙᴀsᴇ ᴏɴ :** {adB.name}\n⍟ **ᴅᴇᴘʟᴏʏ :** •[{HOSTED_ON}]•\n⍟ **ᴏᴡɴᴇʀ :** {user.first_name}\n⍟ **ᴊᴜᴍʟᴀʜ :** {len(dugmeler)} **Modules**",
+                    text=f"**× ʟᴜᴍɪᴇʀᴇ-ᴜsᴇʀʙᴏᴛ× 𝙸𝙽𝙻𝙸𝙽𝙴 𝙼𝙴𝙽𝚄 **\n\n⍟ **ʙᴀsᴇ ᴏɴ :** {adB.name}\n⍟ **ᴅᴇᴘʟᴏʏ :** •[{HOSTED_ON}]•\n⍟ **ᴏᴡɴᴇʀ :** {user.first_name}\n⍟ **ᴊᴜᴍʟᴀʜ :** {len(dugmeler)} **Modules**",
                     buttons=main_help_button,
                 )
             elif query.startswith("repo"):
@@ -574,7 +574,7 @@ with bot:
                         0,
                         "image/jpeg",
                         []),
-                    text="ʟᴜᴍɪᴇʀᴇ-ᴜsᴇʀʙᴏᴛ\n➖➖➖➖➖➖➖➖➖➖\n✧  **ʀᴇᴘᴏ :** [ʟᴜᴍɪᴇʀᴇ-ᴜsᴇʀʙᴏᴛ](https://t.me/Strangedocx)\n✧ **sᴜᴘᴘᴏʀᴛ :** @Lumieresupport\n✧ **ʀᴇᴘᴏsɪᴛᴏʀʏ :** [Lumiere-ubot](https://github.com/NotLumiere/Lumiere-ubot)\n➖➖➖➖➖➖➖➖➖➖",
+                    text="×ʟᴜᴍɪᴇʀᴇ-ᴜsᴇʀʙᴏᴛ×\n➖➖➖➖➖➖➖➖➖➖\n✧  **ʀᴇᴘᴏ :** [ʟᴜᴍɪᴇʀᴇ-ᴜsᴇʀʙᴏᴛ](https://t.me/Strangedocx)\n✧ **sᴜᴘᴘᴏʀᴛ :** @Lumieresupport\n✧ **ʀᴇᴘᴏsɪᴛᴏʀʏ :** [Lumiere-ubot](https://github.com/NotLumiere/Lumiere-Userbot)\n➖➖➖➖➖➖➖➖➖➖",
                     buttons=[
                         [
                             custom.Button.url(
@@ -682,7 +682,7 @@ with bot:
                         0,
                         "image/jpeg",
                         []),
-                    text=f"Lᴜᴍɪᴇʀᴇ-Usᴇʀʙᴏᴛ\n➖➖➖➖➖➖➖➖➖➖\n✧ ᴏᴡɴᴇʀ : [{user.first_name}](tg://user?id={user.id})\n✧ ᴀssɪsᴛᴀɴᴛ: {tgbotusername}\n➖➖➖➖➖➖➖➖➖➖\nᴜᴘᴅᴀᴛᴇs : @Lumieresupport\n➖➖➖➖➖➖➖➖➖➖",
+                    text=f"**× Lᴜᴍɪᴇʀᴇ-Usᴇʀʙᴏᴛ ×**\n➖➖➖➖➖➖➖➖➖➖\n**✧ ᴏᴡɴᴇʀ :** [{user.first_name}](tg://user?id={user.id})\n✧ ᴀssɪsᴛᴀɴᴛ: {tgbotusername}\n➖➖➖➖➖➖➖➖➖➖\n**ᴜᴘᴅᴀᴛᴇs :** @Lumieresupport\n➖➖➖➖➖➖➖➖➖➖",
                     buttons=[
                         [
                             custom.Button.url(
@@ -821,7 +821,7 @@ with bot:
   »  Perintah : {cmd}pause
   »  Kegunaan : Untuk memberhentikan video/lagu yang sedang diputar.
 
-  »  Perintah : {cmd}resume
+  »  Perintah : `{cmd}resume`
   »  Kegunaan : Untuk melanjutkan pemutaran video/lagu yang sedang diputar.
 
   »  Perintah : {cmd}volume 1-200
@@ -850,23 +850,23 @@ with bot:
                     f"""
 ✘ Perintah yang tersedia di vctools ✘
 
-  »  Perintah : {cmd}startvc
-  »  Kegunaan : Untuk Memulai voice chat group.
+  »  **Perintah :** {cmd}startvc
+  »  **Kegunaan :** Untuk Memulai voice chat group.
 
-  »  Perintah : {cmd}stopvc
-  »  Kegunaan : Untuk Memberhentikan voice chat group.
+  »  **Perintah :** {cmd}stopvc
+  »  **Kegunaan :** Untuk Memberhentikan voice chat group.
 
-  »  Perintah : {cmd}joinvc atau {cmd}joinvc <chatid/username gc>
-  »  Kegunaan : Untuk Bergabung ke voice chat group.
+  »  **Perintah :** {cmd}joinvc atau {cmd}joinvc <chatid/username gc>
+  »  **Kegunaan :** Untuk Bergabung ke voice chat group.
 
-  »  Perintah : {cmd}leavevc atau {cmd}leavevc <chatid/username gc>
-  »  Kegunaan : Untuk Turun dari voice chat group.
+  »  **Perintah :** {cmd}leavevc atau {cmd}leavevc <chatid/username gc>
+  »  **Kegunaan :** Untuk Turun dari voice chat group.
 
-  »  Perintah : {cmd}vctitle <title vcg>
-  »  Kegunaan : Untuk Mengubah title/judul voice chat group.
+  »  **Perintah :** {cmd}vctitle <title vcg>
+  »  **Kegunaan :** Untuk Mengubah title/judul voice chat group.
 
-  »  Perintah : {cmd}vcinvite
-  »  Kegunaan : Mengundang Member group ke voice chat group.
+  »  **Perintah :** {cmd}vcinvite
+  »  **Kegunaan :** Mengundang Member group ke voice chat group.
 """)
                 await event.edit(
                     text,
@@ -908,20 +908,20 @@ with bot:
                     f"""
 ✘ Perintah Yang Tersedia Di btpm ✘
 
-  »  Perintah : {cmd}btpm <username ch>
-  »  Kegunaan : Untuk Mendapatkan List Btpm Kosong.
+  » ** Perintah : **`{cmd}btpm` <username ch>
+  »  **Kegunaan : **Untuk Mendapatkan List Btpm Kosong.
 
-  »  Perintah : {cmd}savebt <nama_list>
-  »  Kegunaan : Untuk Menyimpan List Btpm, Gunakan Nama Yang Berbeda.
+  »  **Perintah : **`{cmd}savebt` <nama_list>
+  »  **Kegunaan :** Untuk Menyimpan List Btpm, Gunakan Nama Yang Berbeda.
 
-  »  Perintah : $<nama_list>
-  »  Kegunaan : Untuk Mendapatkan List Btpm Yang Tersimpan.
+  »  **Perintah :** **`$<nama_list>
+  »  **Kegunaan :** Untuk Mendapatkan List Btpm Yang Tersimpan.
 
-  »  Perintah : {cmd}delbt <nama_list>
-  »  Kegunaan : Menghapus List Btpm Yang Tersimpan.
+  »  **Perintah : **`{cmd}delbt` <nama_list>
+  »  **Kegunaan :** Menghapus List Btpm Yang Tersimpan.
 
-  »  Perintah : {cmd}listbt <nama_list>
-  »  Kegunaan : Untuk Menlihat Semua List Btpm Yang Tersimpan.
+  »  **Perintah : **`{cmd}listbt` <nama_list>
+  »  **Kegunaan :** Untuk Menlihat Semua List Btpm Yang Tersimpan.
 """)
                 await event.edit(
                     text,
@@ -966,11 +966,11 @@ with bot:
                     f"""
 ✘ Perintah yang tersedia di tools ✘
 
-  »  Perintah : {cmd}lang
+  »  **Perintah : **`{cmd}lang`
   »  Kegunaan : Untuk Mengubah Bahasa.
 
-  »  Perintah : {cmd}string
-  »  Kegunaan : Untuk Membuat String Session.
+  »  **Perintah : **`{cmd}string`
+  »  **Kegunaan : **Untuk Membuat String Session.
 """)
                 await event.edit(
                     text,
