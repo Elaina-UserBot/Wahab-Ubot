@@ -810,7 +810,7 @@ with bot:
   »  **Kegunaan :** Untuk Memutar Lagu di voice chat group dengan akun kamu.
 
   »  **Perintah :** {cmd}vplay <Judul Video/Link YT>
-  »  Kegunaan : Untuk Memutar Video di voice chat group dengan akun kamu.
+  »  **Kegunaan :** Untuk Memutar Video di voice chat group dengan akun kamu.
 
   »  **Perintah :** {cmd}end
   »  **Kegunaan :** Untuk Memberhentikan video/lagu yang sedang putar di voice chat group.
@@ -848,7 +848,7 @@ with bot:
             if event.query.user_id == uid or event.query.user_id in SUDO_USERS:
                 text = (
                     f"""
-✘ Perintah yang tersedia di vctools ✘
+✘ **Perintah yang tersedia di vctools** ✘
 
   »  **Perintah :** `{cmd}startvc`
   »  **Kegunaan :** Untuk Memulai voice chat group.
