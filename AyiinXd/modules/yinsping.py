@@ -91,7 +91,7 @@ async def kazu(ganteng):
 
 CMD_HELP.update(
     {
-        "Devping": f"**Plugin:** `ping`\
+        "devping": f"**Plugin:** `ping`\
         \n\n  »  **Perintah : **`Perintah Ini Hanya Untuk Devs ʟᴜᴍɪᴇʀᴇ ᴜsᴇʀʙᴏᴛ.`\
         \n  »  **Kegunaan :** __Silahkan Ketik `{cmd}ping` Untuk Publik.__\
     "
