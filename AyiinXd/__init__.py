@@ -850,22 +850,22 @@ with bot:
                     f"""
 ✘ Perintah yang tersedia di vctools ✘
 
-  »  **Perintah :** {cmd}startvc
+  »  **Perintah :** `{cmd}startvc`
   »  **Kegunaan :** Untuk Memulai voice chat group.
 
-  »  **Perintah :** {cmd}stopvc
+  »  **Perintah :** `{cmd}stopvc`
   »  **Kegunaan :** Untuk Memberhentikan voice chat group.
 
-  »  **Perintah :** {cmd}joinvc atau {cmd}joinvc <chatid/username gc>
+  »  **Perintah :** `{cmd}joinvc atau {cmd}joinvc <chatid/username gc>`
   »  **Kegunaan :** Untuk Bergabung ke voice chat group.
 
-  »  **Perintah :** {cmd}leavevc atau {cmd}leavevc <chatid/username gc>
+  »  **Perintah :** `{cmd}leavevc atau {cmd}leavevc <chatid/username gc>`
   »  **Kegunaan :** Untuk Turun dari voice chat group.
 
-  »  **Perintah :** {cmd}vctitle <title vcg>
+  »  **Perintah :** `{cmd}vctitle` <title vcg>
   »  **Kegunaan :** Untuk Mengubah title/judul voice chat group.
 
-  »  **Perintah :** {cmd}vcinvite
+  »  **Perintah :** `{cmd}vcinvite`
   »  **Kegunaan :** Mengundang Member group ke voice chat group.
 """)
                 await event.edit(
@@ -908,19 +908,19 @@ with bot:
                     f"""
 ✘ **Perintah Yang Tersedia Di btpm** ✘
 
-  »  **Perintah : **`{cmd}btpm` <username ch>
+  »  **Perintah :** `{cmd}btpm` <username ch>
   »  **Kegunaan :** Untuk Mendapatkan List Btpm Kosong.
 
   »  **Perintah : **`{cmd}savebt` <nama_list>
   »  **Kegunaan :** Untuk Menyimpan List Btpm, Gunakan Nama Yang Berbeda.
 
-  »  **Perintah :** **`$<nama_list>
+  »  **Perintah :** `$<nama_list>`
   »  **Kegunaan :** Untuk Mendapatkan List Btpm Yang Tersimpan.
 
-  »  **Perintah : **`{cmd}delbt` <nama_list>
+  »  **Perintah :** `{cmd}delbt` <nama_list>
   »  **Kegunaan :** Menghapus List Btpm Yang Tersimpan.
 
-  »  **Perintah : **`{cmd}listbt` <nama_list>
+  »  **Perintah :** `{cmd}listbt` <nama_list>
   »  **Kegunaan :** Untuk Menlihat Semua List Btpm Yang Tersimpan.
 """)
                 await event.edit(
@@ -941,7 +941,7 @@ with bot:
             if event.query.user_id == uid or event.query.user_id in SUDO_USERS:
                 text = (
                     f"""
-✘ Perintah yang tersedia di yins bokep ✘
+✘ **Perintah yang tersedia di yins bokep** ✘
 
   »  **Perintah :** `{cmd}bokp`
   »  **Kegunaan :** Untuk Mengirim bokp secara random.
@@ -964,7 +964,7 @@ with bot:
             if event.query.user_id == uid or event.query.user_id in SUDO_USERS:
                 text = (
                     f"""
-✘ Perintah yang tersedia di tools ✘
+✘ **Perintah yang tersedia di tools** ✘
 
   »  **Perintah : **`{cmd}lang`
   »  Kegunaan : Untuk Mengubah Bahasa.
