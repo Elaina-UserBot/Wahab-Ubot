@@ -438,7 +438,7 @@ hzmt_4: "`Mohon Maaf, GIF Tidak Bisa...`"
 
 # helper tools
 hlpr_1: "**Hai {} Kalo Anda Tidak Tau Perintah Untuk Memerintah Ku Ketik** `{}help` Atau Bisa Minta Bantuan Ke:\n⍟ **Group Support :** [Lumiere support](t.me/Lumieresupport)\n⍟ **Channel Lumi :** [Channel gw](t.me/Gabutanlu)\n⍟ **Owner Repo :** [Lumi](t.me/Strangerdocx)\n⍟ **Repo :** [Lᴜᴍɪᴇʀᴇ-Usᴇʀʙᴏᴛ](https://github.com/NotLumiere/Lumiere-Userbot)\n"
-hlpr_2: "**Daftar Lengkap Vars Dari 𝙺𝙰𝚉𝚄 𝚄𝚂𝙴𝚁𝙱𝙾𝚃:** [KLIK DISINI](https://telegra.ph/List-Variable-Heroku-Untuk-𝙺𝙰𝚉𝚄 𝚄𝚂𝙴𝚁𝙱𝙾𝚃-02-08)"
+hlpr_2: "**Daftar Lengkap Vars Dari 𝙻𝚄𝙼𝙸𝙴𝚁𝙴-𝚄𝚂𝙴𝚁𝙱𝙾𝚃:** [KLIK DISINI](https://telegra.ph/List-Variable-Heroku-Untuk-𝙺𝙰𝚉𝚄 𝚄𝚂𝙴𝚁𝙱𝙾𝚃-02-08)"
 
 # hentai tools
 hentai_1: "**Maaf saya tidak bisa mendapatkan manga dari**"
@@ -887,11 +887,11 @@ upd_9: "**ʟᴜᴍɪᴇʀᴇ ᴜsᴇʀʙᴏᴛ** `Berhasil Di {} Userbot bisa di
 upd_10: "{}\n**Kegagalan awal!** `{}`"
 upd_11: "**Sayangnya, Directory {} Tampaknya Bukan Dari Repo. Tapi Kita Bisa Memperbarui Paksa Userbot Menggunakan** `{}update deploy`"
 upd_12: "**[HEROKU]: Harap Tambahkan Variabel** `HEROKU_API_KEY`"
-upd_13: "** 💫 ʟᴜᴍɪᴇʀᴇ-ᴜsᴇʀʙᴏᴛ 💫 Sudah Versi Terbaru**"
+upd_13: "** × ʟᴜᴍɪᴇʀᴇ-ᴜsᴇʀʙᴏᴛ × Sudah Versi Terbaru**"
 upd_14: "`[HEROKU]: Update Deploy ʟᴜᴍɪᴇʀᴇ ᴜsᴇʀʙᴏᴛ Sedang Dalam Proses...`"
 upd_15: "**Perfoming a quick update, please wait...**"
 upd_16: "**Sinkronisasi Paksa Ke Kode Userbot Terbaru, Harap Tunggu...**"
-upd_17: "**Ketik** `{}update deploy` **Untuk Mengupdate 💫 ʟᴜᴍɪᴇʀᴇ ᴜsᴇʀʙᴏᴛ 💫**"
+upd_17: "**Ketik** `{}update deploy` **Untuk Mengupdate × ʟᴜᴍɪᴇʀᴇ ᴜsᴇʀʙᴏᴛ ×**"
 upd_18: "**Quick update telah dinonaktifkan untuk pembaruan ini. Gunakan** `{}update deploy` **sebagai gantinya.**"
 upd_19: "{}\n**Direktori** `{}` **Tidak Dapat Di Temukan.**"
 upd_20: "**[•]** - Proses Update\nʟᴜᴍɪᴇʀᴇ ᴜsᴇʀʙᴏᴛ : `{}`"
