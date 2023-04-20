@@ -1,2 +1,2 @@
-# Extra Resources for Ayiin-Userbot
-Repository [Ayiin-Userbot](https://github.com/AyiinXd/Ayiin-Userbot)
+# Extra Resources for Lumiere-Userbot
+Repository [Lumiere-Userbot](https://github.com/NotLumiere/Lumiere-Userbot)
