@@ -57,7 +57,7 @@ async def truth_or_dare(tord):
 
 CMD_HELP.update(
     {
-        "ToD": f"**Plugin:** `Truth or Dare`\
+        "tod": f"**Plugin:** `Truth or Dare`\
         \n\n  »  **Perintah :** `{cmd}tod`\
         \n  »  **Kegunaan :** __Mendapatkan Pilihan Secara Acak.__\
         \n\n  »  **Perintah :** `{cmd}tod <truth/dare>`\
