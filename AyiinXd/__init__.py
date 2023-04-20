@@ -783,9 +783,9 @@ with bot:
 """,
                                  buttons=[
                                      [
-                                         Button.inline("⍟ ᴠᴄ ᴘʟᴜɢɪɴ ⍟",
+                                         Button.inline("× ᴠᴄ ᴘʟᴜɢɪɴ ×",
                                                        data="vcplugin"),
-                                         Button.inline("⍟ ᴠᴄ ᴛᴏᴏʟs ⍟",
+                                         Button.inline("× ᴠᴄ ᴛᴏᴏʟs ×",
                                                        data="vctools")],
                                      [custom.Button.inline(
                                          "ʙᴀᴄᴋ", data="gcback")],
@@ -804,31 +804,31 @@ with bot:
             if event.query.user_id == uid or event.query.user_id in SUDO_USERS:
                 text = (
                     f"""
-✘ Perintah yang tersedia di vcplugin ✘
+✘ **Perintah yang tersedia di vcplugin** ✘
 
-  »  Perintah : {cmd}play <Judul Lagu/Link YT>
-  »  Kegunaan : Untuk Memutar Lagu di voice chat group dengan akun kamu.
+  »  **Perintah :** {cmd}play <Judul Lagu/Link YT>
+  »  **Kegunaan :** Untuk Memutar Lagu di voice chat group dengan akun kamu.
 
-  »  Perintah : {cmd}vplay <Judul Video/Link YT>
+  »  **Perintah :** {cmd}vplay <Judul Video/Link YT>
   »  Kegunaan : Untuk Memutar Video di voice chat group dengan akun kamu.
 
-  »  Perintah : {cmd}end
-  »  Kegunaan : Untuk Memberhentikan video/lagu yang sedang putar di voice chat group.
+  »  **Perintah :** {cmd}end
+  »  **Kegunaan :** Untuk Memberhentikan video/lagu yang sedang putar di voice chat group.
 
-  »  Perintah : {cmd}skip
-  »  Kegunaan : Untuk Melewati video/lagu yang sedang di putar.
+  »  **Perintah :** {cmd}skip
+  »  **Kegunaan :** Untuk Melewati video/lagu yang sedang di putar.
 
-  »  Perintah : {cmd}pause
-  »  Kegunaan : Untuk memberhentikan video/lagu yang sedang diputar.
+  »  **Perintah :** {cmd}pause
+  »  **Kegunaan :** Untuk memberhentikan video/lagu yang sedang diputar.
 
-  »  Perintah : `{cmd}resume`
-  »  Kegunaan : Untuk melanjutkan pemutaran video/lagu yang sedang diputar.
+  »  **Perintah :** `{cmd}resume`
+  »  **Kegunaan :** Untuk melanjutkan pemutaran video/lagu yang sedang diputar.
 
-  »  Perintah : {cmd}volume 1-200
-  »  Kegunaan : Untuk mengubah volume (Membutuhkan Hak admin).
+  »  **Perintah :** {cmd}volume 1-200
+  »  **Kegunaan :** Untuk mengubah volume (Membutuhkan Hak admin).
 
-  »  Perintah : {cmd}playlist
-  »  Kegunaan : Untuk menampilkan daftar putar Lagu/Video.
+  »  **Perintah :** {cmd}playlist
+  »  **Kegunaan :** Untuk menampilkan daftar putar Lagu/Video.
 """)
                 await event.edit(
                     text,
@@ -885,9 +885,9 @@ with bot:
 """,
                                  buttons=[
                                      [
-                                         Button.inline("⍟ ʙᴛᴘᴍ ⍟",
+                                         Button.inline("× ʙᴛᴘᴍ ×",
                                                        data="btpmayiin"),
-                                         Button.inline("⍟ ʙᴏᴋᴇᴘ ⍟",
+                                         Button.inline("× ʙᴏᴋᴇᴘ ×",
                                                        data="yinsbokep")],
                                      [custom.Button.inline(
                                          "ʙᴀᴄᴋ", data="gcback")],
@@ -906,10 +906,10 @@ with bot:
             if event.query.user_id == uid or event.query.user_id in SUDO_USERS:
                 text = (
                     f"""
-✘ Perintah Yang Tersedia Di btpm ✘
+✘ **Perintah Yang Tersedia Di btpm** ✘
 
-  » ** Perintah : **`{cmd}btpm` <username ch>
-  »  **Kegunaan : **Untuk Mendapatkan List Btpm Kosong.
+  »  **Perintah : **`{cmd}btpm` <username ch>
+  »  **Kegunaan :** Untuk Mendapatkan List Btpm Kosong.
 
   »  **Perintah : **`{cmd}savebt` <nama_list>
   »  **Kegunaan :** Untuk Menyimpan List Btpm, Gunakan Nama Yang Berbeda.
@@ -943,8 +943,8 @@ with bot:
                     f"""
 ✘ Perintah yang tersedia di yins bokep ✘
 
-  »  Perintah : {cmd}bokp
-  »  Kegunaan : Untuk Mengirim bokp secara random.
+  »  **Perintah :** `{cmd}bokp`
+  »  **Kegunaan :** Untuk Mengirim bokp secara random.
 """)
                 await event.edit(
                     text,
