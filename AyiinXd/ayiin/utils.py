@@ -77,7 +77,7 @@ async def autopilot():
     channel = get_peer_id(chat)
     if isinstance(chat.photo, ChatPhotoEmpty):
         photo = await download_file(
-            "https://telegra.ph/file/d470d2198c4f6ce16a12b.jpg", "d470d2198c4f6ce16a12b.jpg"
+            "https://telegra.ph/file/aa1dc8d661b38896659b4.jpg", "d470d2198c4f6ce16a12b.jpg"
         )
         ll = await bot.upload_file(photo)
         try:
@@ -167,14 +167,14 @@ async def autobot():
             await asyncio.sleep(1)
             await bot.send_message(bf, f"@{username}")
             await asyncio.sleep(1)
-            await bot.send_message(bf, f"Managed With ✨ By {who.first_name}")
+            await bot.send_message(bf, f"Managed With × By {who.first_name}")
             await asyncio.sleep(3)
             await bot.send_message(bf, "/setdescription")
             await asyncio.sleep(1)
             await bot.send_message(bf, f"@{username}")
             await asyncio.sleep(1)
             await bot.send_message(
-                bf, f"✨ Owner ~ {who.first_name} ✨\n\n✨ Powered By ~ @Gabutanlu ✨"
+                bf, f"× Owner ~ {who.first_name} ×\n\n× Powered By ~ @Gabutanlu ×"
             )
             await bot.send_message(
                 BOTLOG_CHATID,
@@ -211,14 +211,14 @@ async def autobot():
         await asyncio.sleep(1)
         await bot.send_message(bf, f"@{username}")
         await asyncio.sleep(1)
-        await bot.send_message(bf, f"Managed With ✨ By {who.first_name}")
+        await bot.send_message(bf, f"Managed With × By {who.first_name}")
         await asyncio.sleep(3)
         await bot.send_message(bf, "/setdescription")
         await asyncio.sleep(1)
         await bot.send_message(bf, f"@{username}")
         await asyncio.sleep(1)
         await bot.send_message(
-            bf, f"✨ Owner ~ {who.first_name} ✨\n\n✨ Powered By ~ @Gabutanlu ✨"
+            bf, f"× Owner ~ {who.first_name} ×\n\n× Powered By ~ @Gabutanlu ×"
         )
         await bot.send_message(
             BOTLOG_CHATID,
