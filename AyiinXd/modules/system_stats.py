@@ -109,8 +109,8 @@ async def psu(event):
     help_string += "**Iɴғᴏʀᴍᴀsɪ Mᴇsɪɴ**\n"
     help_string += f"**Pʏᴛʜᴏɴ :** `{sys.version}`\n"
     help_string += f"**Tᴇʟᴇᴛʜᴏɴ :**`{__version__}`\n"
-    help_string += f"**Pʏ-ᴋᴀᴢᴜ :** `{py_ver}`\n"
-    help_string += f"**ᴋᴀᴢᴜ ᴠᴇʀsɪᴏɴ :** `{ayiin_version} [{HOSTED_ON}]`"
+    help_string += f"**Pʏ-ᴠᴇʀsɪᴏɴ :** `{py_ver}`\n"
+    help_string += f"**ʟᴜᴍɪᴇʀᴇ ᴠᴇʀsɪᴏɴ :** `{ayiin_version} [{HOSTED_ON}]`"
     await edit_or_reply(event, help_string)
 
 
@@ -171,7 +171,7 @@ async def bot_ver(event):
 
         await edit_or_reply(
             event,
-            "✧ **Userbot Versi :** " f"`{verout}`" "\n✧ **Revisi :** " f"`{revout}`",
+            "× **Userbot Versi :** " f"`{verout}`" "\n× **Revisi :** " f"`{revout}`",
         )
     else:
         await edit_or_reply(
