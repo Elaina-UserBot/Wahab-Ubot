@@ -187,7 +187,7 @@ async def amireallyalive(alive):
     await alive.edit("👻")
     await asyncio.sleep(3)
     output = (
-        f"**Tʜᴇ [ᴋᴀᴢᴜ ᴜsᴇʀʙᴏᴛ](https://github.com/ionmusic/Kazu-Userbot)**\n\n"
+        f"**Tʜᴇ [ʟᴜᴍɪᴇʀᴇ ᴜsᴇʀʙᴏᴛ](https://github.com/NotLumiere/Lumiere-Userbot)**\n\n"
         f"**{alive_text}**\n\n"
         f"╭✠╼━━━━━━━━━━━━━━━✠╮\n"
         f"{emoji} **Bᴀsᴇ Oɴ :** ••{adB.name}••\n"
@@ -197,8 +197,8 @@ async def amireallyalive(alive):
         f"{emoji} **Pʏᴛʜᴏɴ Vᴇʀsɪᴏɴ :** `{python_version()}` \n"
         f"{emoji} **PʏTɢCᴀʟʟs Vᴇʀsɪᴏɴ :** `{pytgcallss}` \n"
         f"{emoji} **Tᴇʟᴇᴛʜᴏɴ Vᴇʀsɪᴏɴ :** `{version.__version__}` \n"
-        f"{emoji} **Pʏ-ᴋᴀᴢᴜ ᴠᴇʀsɪᴏɴ :** `{py_ver}`\n"
-        f"{emoji} **ᴋᴀᴢᴜ ᴠᴇʀsɪᴏɴ :** `{ayiin_version}` [{HOSTED_ON}]\n"
+        f"{emoji} **Pʏ-ᴠᴇʀsɪᴏɴ :** `{py_ver}`\n"
+        f"{emoji} **ʟᴜᴍɪᴇʀᴇ ᴠᴇʀsɪᴏɴ :** `{ayiin_version}` [{HOSTED_ON}]\n"
         f"{emoji} **Bᴏᴛ Uᴘᴛɪᴍᴇ :** `{uptime}`\n"
         "╰✠╼━━━━━━━━━━━━━━━✠╯\n\n"
     )
@@ -239,7 +239,7 @@ CMD_HELP.update(
 CMD_HELP.update(
     {
         "alive": f"**Plugin : **`alive`\
-        \n\n  »  **Perintah :** `{cmd}alive` atau `{cmd}kazu`\
+        \n\n  »  **Perintah :** `{cmd}alive` atau `{cmd}lumi`\
         \n  »  **Kegunaan : **Untuk melihat apakah bot Anda berfungsi atau tidak.\
     "
     }
