@@ -468,7 +468,7 @@ async def font_yins(ayiin):
         return await edit_delete(ayiin, "`Ngetik Yang Bener Bego...`")
 
     await ayiin.edit(f"{kontol}")
-    await ayiin.reply("**𝙂𝙚𝙣𝙚𝙧𝙖𝙩𝙚𝙙 𝘽𝙮 :** ✧ 𝙺𝙰𝚉𝚄-𝚄𝚂𝙴𝚁𝙱𝙾𝚃 ✧")
+    await ayiin.reply("**𝙂𝙚𝙣𝙚𝙧𝙖𝙩𝙚𝙙 𝘽𝙮 :** × 𝙻𝚄𝙼𝙸𝙴𝚁𝙴-𝚄𝚂𝙴𝚁𝙱𝙾𝚃 ×")
 
 
 # ========================×========================
@@ -572,7 +572,7 @@ async def _(ayiin):
     elif font == "bolditalic":
         yins = gen_font(text, _bolditalic)
     await edit_or_reply(ayiin, yins)
-    await ayiin.reply("**𝙂𝙚𝙣𝙚𝙧𝙖𝙩𝙚𝙙 𝘽𝙮 :** ✧ 𝙺𝙰𝚉𝚄-𝚄𝚂𝙴𝚁𝙱𝙾𝚃 ✧")
+    await ayiin.reply("**𝙂𝙚𝙣𝙚𝙧𝙖𝙩𝙚𝙙 𝘽𝙮 :** × 𝙻𝚄𝙼𝙸𝙴𝚁𝙴-𝚄𝚂𝙴𝚁𝙱𝙾𝚃 ×")
     if not yins:
         await ayiin.reply("Ketik Yang Bener Bego!!!")
 
