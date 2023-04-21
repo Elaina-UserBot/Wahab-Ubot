@@ -476,14 +476,14 @@ deldb_3: "**Variabel yang Dihapus** `{}`"
 
 # help tools
 help_1: "`{}` bukan plugin yang valid!"
-help_2: "•• Pʟᴜɢɪɴ ••"
-help_3: "•• Mᴇɴᴜ Bᴛᴘᴍ"
-help_4: "Mᴇɴᴜ Vᴄ ••"
+help_2: "•• ᴍᴇɴᴜ ᴍᴏᴅᴜʟᴇ ••"
+help_3: "•• ᴍᴇɴᴜ ʙᴛᴘᴍ"
+help_4: "ᴍᴇɴᴜ ᴠᴄ ••"
 help_5: "{}\n\n© {}"
-help_6: "⚙️ Aʟᴀᴛ Pᴇᴍɪʟɪᴋ"
-help_7: "Pᴇɴɢᴀᴛᴜʀᴀɴ ⚙️"
-help_8: "•• Kᴇᴍʙᴀʟɪ ••"
-help_9: "•• Bᴜᴋᴀ ••"
+help_6: "⚙️ ᴀʟᴀᴛ ᴘᴇᴍɪʟɪᴋ"
+help_7: "ᴘᴇɴɢᴀᴛᴜʀᴀɴ ⚙️"
+help_8: "•• ᴄʟᴏsᴇ ••"
+help_9: "•• ᴏᴘᴇɴ ••"
 help_10: "**Modul {} Tidak diketahui**, **Silahkan Ketik {}help untuk melihat modul.**"
 
 # info tools
