@@ -65,7 +65,7 @@ async def autopilot():
         )
     except ChannelsTooMuchError:
         LOGS.info(
-            "Channel dan Group Lu Banyak Tod, Hapus Salah Satu Dan Restart Lagi"
+            "Channel dan Group Anda Terlalu Banyak, Silahkan Hapus Salah Satu Dan Restart Lagi"
         )
         exit(1)
     except BaseException:
