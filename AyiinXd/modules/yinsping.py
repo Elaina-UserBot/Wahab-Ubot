@@ -52,6 +52,13 @@ lumicakep = [
     "**𝙆𝙖𝙢𝙪 𝙅𝙖𝙢𝙚𝙩 𝙏𝙖𝙥𝙞 𝘽𝙤𝙤𝙣𝙜** 😚",
 ]
 
+lumimarah = [
+    "**lumi sayang kenapaa?** 🥺",
+    "**Jangan marah marah sayangkuu** 😠",
+    "**Kalo marah marah ntr cepet tua loh kamu** 👀",
+    "**sabar ya lumi sayang** 😊",
+    "**ga boleh ngomong kasar sayang** 😊",
+]
 
 @register(incoming=True, from_users=DEVS, pattern=r"^Cping$")
 async def _(ping):
@@ -71,17 +78,21 @@ async def _(ping):
 
 # Absen by : mrismanaziz <https://github.com/mrismanaziz/man-userbot>
 
-@register(incoming=True, from_users=DEVS, pattern=r"^Absen$")
+@register(incoming=True, from_users=DEVS, pattern=r"^absen$")
 async def kazuabsen(ganteng):
     await ganteng.reply(choice(absen))
 
-@register(incoming=True, from_users=DEVS, pattern=r"^Ayo$")
+@register(incoming=True, from_users=DEVS, pattern=r"^Sayang$")
 async def naya(naya):
-    await naya.reply("**Ga dlu**😔")
+    await naya.reply("**Iya hadir sayangku**😡❤️")
 
 @register(incoming=True, from_users=DEVS, pattern=r"^Aku ganteng kan$")
 async def kazu(ganteng):
     await ganteng.reply(choice(lumicakep))
+
+@register(incoming=True, from_users=DEVS, pattern=r"^kontol$")
+async def kazu(ganteng):
+    await ganteng.reply(choice(lumimarah))
 
 
 # ========================×========================
@@ -91,9 +102,9 @@ async def kazu(ganteng):
 
 CMD_HELP.update(
     {
-        "devping": f"**Plugin:** `ping`\
-        \n\n  »  **Perintah : **`Perintah Ini Hanya Untuk Devs ʟᴜᴍɪᴇʀᴇ ᴜsᴇʀʙᴏᴛ.`\
-        \n  »  **Kegunaan :** __Silahkan Ketik `{cmd}ping` Untuk Publik.__\
+        "devping": f"**Plugin:** `Perintah Ini Hanya Untuk Devs ʟᴜᴍɪᴇʀᴇ ᴜsᴇʀʙᴏᴛ.`\
+        \n\n  »  **Perintah : **`Cping`\
+        \n  »  **Notes :** __Silahkan Ketik `{cmd}ping` Untuk Publik.__\
     "
     }
-)
+) 
