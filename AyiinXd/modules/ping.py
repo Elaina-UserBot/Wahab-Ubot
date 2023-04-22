@@ -101,7 +101,7 @@ async def _(ping):
     )
 
 
-@ayiin_cmd(pattern="xping$")
+@ayiin_cmd(pattern="todping$")
 async def _(pong):
     await get_readable_time((time.time() - StartTime))
     start = datetime.now()
@@ -202,7 +202,7 @@ async def _(pong):
 CMD_HELP.update(
     {
         "ping": f"**Plugin : **`ping`\
-        \n\n  »  **Perintah :** `{cmd}ping` ; `{cmd}iping` ; `{cmd}xping` ; `{cmd}lumi`\
+        \n\n  »  **Perintah :** `{cmd}ping` ; `{cmd}iping` ; `{cmd}xping` ; `{cmd}todping` ; `{cmd}lumi`\
         \n  »  **Kegunaan : **Untuk menunjukkan ping userbot.\
         \n\n  »  **Perintah :** `{cmd}pong`\
         \n  »  **Kegunaan : **Sama seperti perintah ping\
