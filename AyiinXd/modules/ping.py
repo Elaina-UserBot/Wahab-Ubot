@@ -50,15 +50,15 @@ async def get_readable_time(seconds: int) -> str:
 async def _(ping):
     uptime = await get_readable_time((time.time() - StartTime))
     start = datetime.now()
-    Ayiin = await edit_or_reply(ping, "**×**")
-    await Ayiin.edit("**••**")
-    await Ayiin.edit("**•••**")
-    await Ayiin.edit("**••••**")
-    await Ayiin.edit("**•••••**")
+    Ayiin = await edit_or_reply(ping, "**☁️**")
+    await Ayiin.edit("**🌩️**")
+    await Ayiin.edit("**🌧️**")
+    await Ayiin.edit("**⛈️**")
+    await Ayiin.edit("**🌩️**")
     end = datetime.now()
     duration = (end - start).microseconds / 1000
     user = await ping.client.get_me()
-    await Ayiin.edit("📡")
+    await Ayiin.edit("⚡")
     sleep(3)
     await Ayiin.edit(
         f"**× 𝙻𝚄𝙼𝙸𝙴𝚁𝙴-𝚄𝚂𝙴𝚁𝙱𝙾𝚃 ×**\n\n"
@@ -80,7 +80,7 @@ async def _(ping):
     )
 
 
-@ayiin_cmd(pattern="lping$")
+@ayiin_cmd(pattern="iping$")
 async def _(ping):
     uptime = await get_readable_time((time.time() - StartTime))
     start = datetime.now()
@@ -101,22 +101,22 @@ async def _(ping):
     )
 
 
-@ayiin_cmd(pattern="keping$")
+@ayiin_cmd(pattern="xping$")
 async def _(pong):
     await get_readable_time((time.time() - StartTime))
     start = datetime.now()
-    kopong = await edit_or_reply(pong, "**『⍟𝐊𝐎𝐍𝐓𝐎𝐋』**")
-    await kopong.edit("**◆◈𝐊𝐀𝐌𝐏𝐀𝐍𝐆◈◆**")
-    await kopong.edit("**𝐏𝐄𝐂𝐀𝐇𝐊𝐀𝐍 𝐁𝐈𝐉𝐈 𝐊𝐀𝐔 𝐀𝐒𝐔**")
-    await kopong.edit("**☬𝐒𝐈𝐀𝐏 𝐊𝐀𝐌𝐏𝐀𝐍𝐆 𝐌𝐄𝐍𝐔𝐌𝐁𝐔𝐊 𝐀𝐒𝐔☬**")
+    kopong = await edit_or_reply(pong, "**jangan sayang...**")
+    await kopong.edit("**aku masih perawan sayang...**")
+    await kopong.edit("**nanti aku hamil gmn?**")
+    await kopong.edit("**Ah ah ah ah ah ampun sayang**")
     end = datetime.now()
     duration = (end - start).microseconds / 1000
     user = await pong.client.get_me()
     await kopong.edit(
-        f"**✲ 𝙺𝙾𝙽𝚃𝙾𝙻 𝙼𝙴𝙻𝙴𝙳𝚄𝙶** "
-        f"\n ⫸ 𝙺𝙾𝙽𝚃𝙾𝙻 `%sms` \n"
-        f"**✲ 𝙱𝙸𝙹𝙸 𝙿𝙴𝙻𝙴𝚁** "
-        f"\n ⫸ 𝙺𝙰𝙼𝙿𝙰𝙽𝙶『[{user.first_name}](tg://user?id={user.id})』 \n" % (duration)
+        f"**× Hasil Kawin kita ×** "
+        f"\n ⫸ Jumlah ping `%sms` \n"
+        f"**× Anak kita ×** "
+        f"\n ⫸ Nama anak kita 『[{user.first_name}](tg://user?id={user.id})』 \n" % (duration)
     )
 
 
@@ -149,10 +149,10 @@ async def _(pong):
     await kping.edit("**CONNECTED!!**")
     end = datetime.now()
     duration = (end - start).microseconds / 1000
-    await kping.edit("✅")
+    await kping.edit("⚡")
     sleep(3)
     await kping.edit(
-        f"**×𝙻𝚄𝙼𝙸𝙴𝚁𝙴-𝚄𝚂𝙴𝚁𝙱𝙾𝚃× **\n**𝙿𝙸𝙽𝙶𝙴𝚁** : %sms\n**𝙱𝙾𝚃 𝚄𝙿𝚃𝙸𝙼𝙴** : {uptime}🕛" % (duration)
+        f"**×𝙻𝚄𝙼𝙸𝙴𝚁𝙴-𝚄𝚂𝙴𝚁𝙱𝙾𝚃× **\n**𝙿𝙸𝙽𝙶𝙴𝚁** : %sms\n**𝙱𝙾𝚃 𝚄𝙿𝚃𝙸𝙼𝙴** : {uptime}" % (duration)
     )
 
 
@@ -202,7 +202,7 @@ async def _(pong):
 CMD_HELP.update(
     {
         "ping": f"**Plugin : **`ping`\
-        \n\n  »  **Perintah :** `{cmd}ping` ; `{cmd}lping` ; `{cmd}xping` ; `{cmd}lumi`\
+        \n\n  »  **Perintah :** `{cmd}ping` ; `{cmd}iping` ; `{cmd}xping` ; `{cmd}lumi`\
         \n  »  **Kegunaan : **Untuk menunjukkan ping userbot.\
         \n\n  »  **Perintah :** `{cmd}pong`\
         \n  »  **Kegunaan : **Sama seperti perintah ping\
