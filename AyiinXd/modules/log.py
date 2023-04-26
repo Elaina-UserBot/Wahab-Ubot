@@ -80,7 +80,7 @@ async def pm_log(client, message):
     biji = message.from_user.first_name
     sempak = message.text
     await yins.client.send_message(
-                botlog_chat_id,
+                BOTLOG_CHATID,
                 f"💌 <b><u>MENERUSKAN PESAN BARU</u></b>\n<b> • Dari :</b> {biji}\n<b> • User ID :</b> <code>{user}</code>\n<b> • PESAN :</b> <code>{sempak}</code>\n ",
                 parse_mode=enums.ParseMode.HTML,
             )
