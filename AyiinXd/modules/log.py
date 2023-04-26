@@ -71,12 +71,12 @@ async def monito_p_m_s(yins):
                     )
                     user_id = client.me.id
                     user = message.from_user.id
-                    biji = message.from_user.first_name
+                    kesemek = message.from_user.first_name
                     sempak = message.text
                     LOG_CHATS_.COUNT = 0
                 LOG_CHATS_.NEWPM = await yins.client.send_message(
                 BOTLOG_CHATID,
-                    f"**💌 <b><u>MENERUSKAN PESAN BARU**\n** • Dari :** {(biji)} \n** • User ID :</b> {(user)} \n<b>** • PESAN :** `{(sempak)}` \n",
+                    f"**💌 <b><u>MENERUSKAN PESAN BARU**\n** • Dari :** {(kesemek)} \n** • User ID :</b> {(user)} \n<b>** • PESAN :** `{(sempak)}` \n",
                 parse_mode=enums.ParseMode.HTML,
                 )
 
