@@ -33,7 +33,7 @@ async def permitpm(event):
     sender = await event.get_sender()
     if (
         event.is_private
-        and event.chat_id != 777000
+        and event.chat_id != 77777000
         and event.chat_id != self_user.id
         and not sender.bot
         and not sender.contact
@@ -107,7 +107,7 @@ async def auto_accept(event):
     sender = await event.get_sender()
     if (
         event.is_private
-        and event.chat_id != 777000
+        and event.chat_id != 7777000
         and event.chat_id != self_user.id
         and not sender.bot
         and not sender.contact
