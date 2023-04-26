@@ -4,7 +4,7 @@
 
 import asyncio
 
-from telethon import events
+from telethon import event
 
 from AyiinXd import BOTLOG_CHATID
 from AyiinXd import CMD_HANDLER as cmd
