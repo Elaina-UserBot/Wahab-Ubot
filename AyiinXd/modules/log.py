@@ -72,15 +72,18 @@ async def monito_p_m_s(yins):
                     BOTLOG_CHATID,
                     f"**💌 #MENERUSKAN #PESAN_BARU**\n** • Dari : **{_format.mentionuser(sender.first_name , sender.id)}\n** • User ID:** `{chat.id}`",
                 )
-            try:
-                if yins.message:
-                    await yins.client.forward_messages(
-                        BOTLOG_CHATID, yins.message, silent=True
-                    )
-                LOG_CHATS_.COUNT += 1
-            except Exception as e:
-                LOGS.warn(str(e))
 
+async def pm_log(client, message):
+    user_id = client.me.id
+    botlog_chat_id = await get_log_groups(user_id)
+    user = message.from_user.id
+    biji = message.from_user.first_name
+    sempak = message.text
+    await yins.client.send_message(
+                botlog_chat_id,
+                f"💌 <b><u>MENERUSKAN PESAN BARU</u></b>\n<b> • Dari :</b> {biji}\n<b> • User ID :</b> <code>{user}</code>\n<b> • PESAN :</b> <code>{sempak}</code>\n ",
+                parse_mode=enums.ParseMode.HTML,
+            )
 
 @bot.on(events.NewMessage(incoming=True, func=lambda e: e.mentioned))
 @bot.on(events.MessageEdited(incoming=True, func=lambda e: e.mentioned))
