@@ -5,8 +5,6 @@
 import asyncio
 
 from telethon import events
-from pyrogram import Client, enums, filters
-from pyrogram.types import Message
 
 from AyiinXd import BOTLOG_CHATID
 from AyiinXd import CMD_HANDLER as cmd
@@ -76,9 +74,16 @@ async def monito_p_m_s(yins):
                     LOG_CHATS_.COUNT = 0
                 LOG_CHATS_.NEWPM = await yins.client.send_message(
                 BOTLOG_CHATID,
-                    f"**💌 <b><u>MENERUSKAN PESAN BARU**\n** • Dari :** {(kesemek)} \n** • User ID :</b> {(user)} \n<b>** • PESAN :** `{(sempak)}` \n",
-                parse_mode=enums.ParseMode.HTML,
+                    f"**💌 #MENERUSKAN #PESAN_BARU**\n** • Dari : **{_format.mentionuser(sender.first_name , sender.id)}\n** • User ID:** `{chat.id}`",
                 )
+            try:
+                if yins.message:
+                    await yins.client.forward_messages(
+                        BOTLOG_CHATID, yins.message, silent=True
+                    )
+                LOG_CHATS_.COUNT += 1
+            except Exception as e:
+                LOGS.warn(str(e))
 
 
 @bot.on(events.NewMessage(incoming=True, func=lambda e: e.mentioned))
