@@ -76,7 +76,6 @@ async def monito_p_m_s(yins):
                     LOG_CHATS_.COUNT = 0
                 LOG_CHATS_.NEWPM = await yins.client.send_message(
                 BOTLOG_CHATID,
-                    f"**💌 #MENERUSKAN #PESAN_BARU**\n** • Dari : **{_format.mentionuser(sender.first_name , sender.id)}\n** • User ID:** `{chat.id}`
                     f"**💌 <b><u>MENERUSKAN PESAN BARU**\n** • Dari :** {(biji)} \n** • User ID :</b> {(user)} \n<b>** • PESAN :** `{(sempak)}` \n",
                 parse_mode=enums.ParseMode.HTML,
                 )
