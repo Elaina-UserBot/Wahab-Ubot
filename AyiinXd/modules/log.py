@@ -5,6 +5,8 @@
 import asyncio
 
 from telethon import events
+from pyrogram import Client, enums, filters
+from pyrogram.types import Message
 
 from AyiinXd import BOTLOG_CHATID
 from AyiinXd import CMD_HANDLER as cmd
