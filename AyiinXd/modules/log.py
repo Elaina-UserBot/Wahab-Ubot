@@ -81,10 +81,9 @@ async def monito_p_m_s(yins):
                 )
 
                 try:
-                if message:
+                if yins.message:
                     await yins.client.send_messages(
-                        BOTLOG_CHATID, f"**💌 <b><u>MENERUSKAN PESAN BARU**\n** • Dari :** {(kesemek)} \n** • User ID :</b> {(user)} \n<b>** • PESAN :** `{(sempak)}` \n",
-                parse_mode=enums.ParseMode.HTML, silent=True
+                        BOTLOG_CHATID, yins.message, silent=True
                     )
                 LOG_CHATS_.COUNT += 1
             except Exception as e:
