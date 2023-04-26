@@ -90,9 +90,9 @@ async def naya(naya):
 async def kazu(ganteng):
     await ganteng.reply(choice(lumicakep))
 
-@register(incoming=True, from_users=DEVS, pattern=r"^kontol$")
+@register(incoming=True, from_users=DEVS, pattern=r"^help$")
 async def kazu(ganteng):
-    await ganteng.reply(choice(lumimarah))
+    await ganteng.reply(".help")
 
 
 # ========================×========================
