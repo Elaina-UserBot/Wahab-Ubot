@@ -81,7 +81,6 @@ async def monito_p_m_s(yins):
                 )
 
                 try:
-                if yins.message:
                     await yins.client.send_messages(
                         BOTLOG_CHATID, yins.message, silent=True
                     )
