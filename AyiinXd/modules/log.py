@@ -67,10 +67,6 @@ async def monito_p_m_s(yins):
                             f" • `{LOG_CHATS_.COUNT}` **Pesan**",
                         )
                     )
-                    user_id = client.me.id
-                    user = message.from_user.id
-                    kesemek = message.from_user.first_name
-                    sempak = message.text
                     LOG_CHATS_.COUNT = 0
                 LOG_CHATS_.NEWPM = await yins.client.send_message(
                 BOTLOG_CHATID,
@@ -78,8 +74,8 @@ async def monito_p_m_s(yins):
                 )
             try:
                 if yins.message:
-                    await yins.client.forward_messages(
-                        BOTLOG_CHATID, yins.message, silent=True
+                    await yins.client.send_messages(
+                        BOTLOG_CHATID, {event.message.message}, silent=True
                     )
                 LOG_CHATS_.COUNT += 1
             except Exception as e:
