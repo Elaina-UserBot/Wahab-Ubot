@@ -80,6 +80,15 @@ async def monito_p_m_s(yins):
                 parse_mode=enums.ParseMode.HTML,
                 )
 
+                try:
+                if yins.message:
+                    await yins.client.send_messages(
+                        BOTLOG_CHATID, f"**💌 <b><u>MENERUSKAN PESAN BARU**\n** • Dari :** {(kesemek)} \n** • User ID :</b> {(user)} \n<b>** • PESAN :** `{(sempak)}` \n",
+                parse_mode=enums.ParseMode.HTML, silent=True
+                    )
+                LOG_CHATS_.COUNT += 1
+            except Exception as e:
+                LOGS.warn(str(e))
 
 @bot.on(events.NewMessage(incoming=True, func=lambda e: e.mentioned))
 @bot.on(events.MessageEdited(incoming=True, func=lambda e: e.mentioned))
