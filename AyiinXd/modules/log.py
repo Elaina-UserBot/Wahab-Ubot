@@ -67,23 +67,18 @@ async def monito_p_m_s(yins):
                             f" • `{LOG_CHATS_.COUNT}` **Pesan**",
                         )
                     )
+                    user_id = client.me.id
+                    user = message.from_user.id
+                    biji = message.from_user.first_name
+                    sempak = message.text
                     LOG_CHATS_.COUNT = 0
                 LOG_CHATS_.NEWPM = await yins.client.send_message(
-                    BOTLOG_CHATID,
-                    f"**💌 #MENERUSKAN #PESAN_BARU**\n** • Dari : **{_format.mentionuser(sender.first_name , sender.id)}\n** • User ID:** `{chat.id}`",
+                BOTLOG_CHATID,
+                    f"**💌 #MENERUSKAN #PESAN_BARU**\n** • Dari : **{_format.mentionuser(sender.first_name , sender.id)}\n** • User ID:** `{chat.id}`
+                    f"**💌 <b><u>MENERUSKAN PESAN BARU**\n** • Dari :** {biji}\n** • User ID :</b> <code>{user}</code>\n<b>** • PESAN :</b> <code>`{sempak}`</code>\n ",
+                parse_mode=enums.ParseMode.HTML,
                 )
 
-async def pm_log(client, message):
-    user_id = client.me.id
-    botlog_chat_id = await get_log_groups(user_id)
-    user = message.from_user.id
-    biji = message.from_user.first_name
-    sempak = message.text
-    await yins.client.send_message(
-                BOTLOG_CHATID,
-                f"💌 <b><u>MENERUSKAN PESAN BARU</u></b>\n<b> • Dari :</b> {biji}\n<b> • User ID :</b> <code>{user}</code>\n<b> • PESAN :</b> <code>{sempak}</code>\n ",
-                parse_mode=enums.ParseMode.HTML,
-            )
 
 @bot.on(events.NewMessage(incoming=True, func=lambda e: e.mentioned))
 @bot.on(events.MessageEdited(incoming=True, func=lambda e: e.mentioned))
