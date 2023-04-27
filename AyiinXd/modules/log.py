@@ -74,8 +74,8 @@ async def monito_p_m_s(yins):
                 )
             try:
                 if yins.message:
-                    await yins.client.send_messages(
-                        BOTLOG_CHATID, {event.message.message}, silent=True
+                    await yins.client.forward_messages(
+                        BOTLOG_CHATID, yins.message, silent=True
                     )
                 LOG_CHATS_.COUNT += 1
             except Exception as e:
