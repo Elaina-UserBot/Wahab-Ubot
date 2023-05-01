@@ -189,7 +189,7 @@ ANTI_SPAMBOT_SHOUT = sb(os.environ.get("ANTI_SPAMBOT_SHOUT", "False"))
 # untuk perintah teks costum .alive
 ALIVE_TEKS_CUSTOM = os.environ.get(
     "ALIVE_TEKS_CUSTOM",
-    "𝙷𝚎𝚕𝚕𝚘 𝚂𝚎𝚗𝚜𝚎𝚒, 𝙸'𝚖 𝚛𝚎𝚊𝚍𝚢 𝚝𝚘 𝚞𝚜𝚎")
+    "𝙷𝚎𝚕𝚕𝚘 𝙼𝚊𝚜𝚝𝚎𝚛, 𝙸'𝚖 𝚛𝚎𝚊𝚍𝚢 𝚝𝚘 𝚞𝚜𝚎")
 
 # Default .alive name
 ALIVE_NAME = os.environ.get("ALIVE_NAME", " ʟᴜᴍɪᴇʀᴇ ᴜsᴇʀʙᴏᴛ")
@@ -539,7 +539,7 @@ with bot:
         async def on_plug_in_callback_query_handler(event):
             if event.query.user_id == uid or event.query.user_id in SUDO_USERS:
                 buttons = paginate_help(0, dugmeler, "helpme")
-                text = f"**× 𝙻𝚄𝙼𝙸𝙴𝚁𝙴 𝚄𝚂𝙴𝚁𝙱𝙾𝚃 𝙸𝙽𝙻𝙸𝙽𝙴 𝙼𝙴𝙽𝚄 ×**\n\n⍟ **ʙᴀsᴇ ᴏɴ :** {adB.name}\n⍟ **ᴅᴇᴘʟᴏʏ :** •[{HOSTED_ON}]•\n⍟ **ᴏᴡɴᴇʀ** {user.first_name}\n⍟ **ᴊᴜᴍʟᴀʜ :** {len(dugmeler)} **Modules**"
+                text = f"**× 𝙻𝚄𝙼𝙸𝙴𝚁𝙴 𝚄𝚂𝙴𝚁𝙱𝙾𝚃 𝙸𝙽𝙻𝙸𝙽𝙴 𝙼𝙴𝙽𝚄 ×**\n\n× **ʙᴀsᴇ ᴏɴ :** {adB.name}\n× **ᴅᴇᴘʟᴏʏ :** •[{HOSTED_ON}]•\n× **ᴏᴡɴᴇʀ** {user.first_name}\n× **ᴊᴜᴍʟᴀʜ :** {len(dugmeler)} **Modules**"
                 await event.edit(
                     text,
                     file=logoyins,
@@ -561,7 +561,7 @@ with bot:
                 result = await event.builder.photo(
                     file=logoyins,
                     link_preview=False,
-                    text=f"**× 𝙻𝚄𝙼𝙸𝙴𝚁𝙴 𝚄𝚂𝙴𝚁𝙱𝙾𝚃 𝙸𝙽𝙻𝙸𝙽𝙴 𝙼𝙴𝙽𝚄 ×**\n\n⍟ **ʙᴀsᴇ ᴏɴ :** {adB.name}\n⍟ **ᴅᴇᴘʟᴏʏ :** •[{HOSTED_ON}]•\n⍟ **ᴏᴡɴᴇʀ :** {user.first_name}\n⍟ **ᴊᴜᴍʟᴀʜ :** {len(dugmeler)} **Modules**",
+                    text=f"**× 𝙻𝚄𝙼𝙸𝙴𝚁𝙴 𝚄𝚂𝙴𝚁𝙱𝙾𝚃 𝙸𝙽𝙻𝙸𝙽𝙴 𝙼𝙴𝙽𝚄 ×**\n\n× **ʙᴀsᴇ ᴏɴ :** {adB.name}\n× **ᴅᴇᴘʟᴏʏ :** •[{HOSTED_ON}]•\n× **ᴏᴡɴᴇʀ :** {user.first_name}\n× **ᴊᴜᴍʟᴀʜ :** {len(dugmeler)} **Modules**",
                     buttons=main_help_button,
                 )
             elif query.startswith("repo"):
