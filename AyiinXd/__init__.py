@@ -221,7 +221,7 @@ BOT_VER = os.environ.get("BOT_VER", "3.6.9")
 
 # Default .alive logo
 ALIVE_LOGO = (os.environ.get("ALIVE_LOGO")
-              or "https://telegra.ph//file/51d81ee411cb2f4ef11a4.jpg")
+              or "https://telegra.ph//file/ebdc09e59b024b3e2e954.jpg")
 
 INLINE_PIC = (os.environ.get("INLINE_PIC")
               or "https://telegra.ph//file/22de02cf205498bd3cad1.jpg")
@@ -335,7 +335,7 @@ else:
 
 async def update_restart_msg(chat_id, msg_id):
     message = (
-        f"ʟᴜᴍɪᴇʀᴇ-ᴜsᴇʀʙᴏᴛ v`{BOT_VER}` is back up and running!**\n\n"
+        f"**ʟᴜᴍɪᴇʀᴇ-ᴜsᴇʀʙᴏᴛ v`{BOT_VER}` is back up and running!**\n\n"
         f"**Telethon:** `{vsc}`\n"
         f"**Python:** `{python_version()}`\n"
     )
@@ -433,7 +433,7 @@ with bot:
         logo = ALIVE_LOGO
         logoyins = random.choice(
                 [
-                    "https://telegra.ph//file/aa1dc8d661b38896659b4.jpg",
+                    "https://telegra.ph//file/ebdc09e59b024b3e2e954.jpg",
                     "https://telegra.ph//file/51d81ee411cb2f4ef11a4.jpg",
                     "https://telegra.ph//file/3a7388a7149bca0395a71.jpg",
                     "https://telegra.ph//file/22de02cf205498bd3cad1.jpg",
@@ -539,7 +539,7 @@ with bot:
         async def on_plug_in_callback_query_handler(event):
             if event.query.user_id == uid or event.query.user_id in SUDO_USERS:
                 buttons = paginate_help(0, dugmeler, "helpme")
-                text = f"**× 𝙻𝚄𝙼𝙸𝙴𝚁𝙴 𝚄𝚂𝙴𝚁𝙱𝙾𝚃 × 𝙸𝙽𝙻𝙸𝙽𝙴 𝙼𝙴𝙽𝚄 **\n\n⍟ **ʙᴀsᴇ ᴏɴ :** {adB.name}\n⍟ **ᴅᴇᴘʟᴏʏ :** •[{HOSTED_ON}]•\n⍟ **ᴏᴡɴᴇʀ** {user.first_name}\n⍟ **ᴊᴜᴍʟᴀʜ :** {len(dugmeler)} **Modules**"
+                text = f"**× 𝙻𝚄𝙼𝙸𝙴𝚁𝙴 𝚄𝚂𝙴𝚁𝙱𝙾𝚃 𝙸𝙽𝙻𝙸𝙽𝙴 𝙼𝙴𝙽𝚄 ×**\n\n⍟ **ʙᴀsᴇ ᴏɴ :** {adB.name}\n⍟ **ᴅᴇᴘʟᴏʏ :** •[{HOSTED_ON}]•\n⍟ **ᴏᴡɴᴇʀ** {user.first_name}\n⍟ **ᴊᴜᴍʟᴀʜ :** {len(dugmeler)} **Modules**"
                 await event.edit(
                     text,
                     file=logoyins,
@@ -561,7 +561,7 @@ with bot:
                 result = await event.builder.photo(
                     file=logoyins,
                     link_preview=False,
-                    text=f"**× 𝙻𝚄𝙼𝙸𝙴𝚁𝙴 𝚄𝚂𝙴𝚁𝙱𝙾𝚃 × 𝙸𝙽𝙻𝙸𝙽𝙴 𝙼𝙴𝙽𝚄 **\n\n⍟ **ʙᴀsᴇ ᴏɴ :** {adB.name}\n⍟ **ᴅᴇᴘʟᴏʏ :** •[{HOSTED_ON}]•\n⍟ **ᴏᴡɴᴇʀ :** {user.first_name}\n⍟ **ᴊᴜᴍʟᴀʜ :** {len(dugmeler)} **Modules**",
+                    text=f"**× 𝙻𝚄𝙼𝙸𝙴𝚁𝙴 𝚄𝚂𝙴𝚁𝙱𝙾𝚃 𝙸𝙽𝙻𝙸𝙽𝙴 𝙼𝙴𝙽𝚄 ×**\n\n⍟ **ʙᴀsᴇ ᴏɴ :** {adB.name}\n⍟ **ᴅᴇᴘʟᴏʏ :** •[{HOSTED_ON}]•\n⍟ **ᴏᴡɴᴇʀ :** {user.first_name}\n⍟ **ᴊᴜᴍʟᴀʜ :** {len(dugmeler)} **Modules**",
                     buttons=main_help_button,
                 )
             elif query.startswith("repo"):
