@@ -539,7 +539,7 @@ with bot:
         async def on_plug_in_callback_query_handler(event):
             if event.query.user_id == uid or event.query.user_id in SUDO_USERS:
                 buttons = paginate_help(0, dugmeler, "helpme")
-                text = f"**× ʟᴜᴍɪᴇʀᴇ-ᴜsᴇʀʙᴏᴛ × 𝙸𝙽𝙻𝙸𝙽𝙴 𝙼𝙴𝙽𝚄 **\n\n⍟ **ʙᴀsᴇ ᴏɴ :** {adB.name}\n⍟ **ᴅᴇᴘʟᴏʏ :** •[{HOSTED_ON}]•\n⍟ **ᴏᴡɴᴇʀ** {user.first_name}\n⍟ **ᴊᴜᴍʟᴀʜ :** {len(dugmeler)} **Modules**"
+                text = f"**× 𝙻𝚄𝙼𝙸𝙴𝚁𝙴 𝚄𝚂𝙴𝚁𝙱𝙾𝚃 × 𝙸𝙽𝙻𝙸𝙽𝙴 𝙼𝙴𝙽𝚄 **\n\n⍟ **ʙᴀsᴇ ᴏɴ :** {adB.name}\n⍟ **ᴅᴇᴘʟᴏʏ :** •[{HOSTED_ON}]•\n⍟ **ᴏᴡɴᴇʀ** {user.first_name}\n⍟ **ᴊᴜᴍʟᴀʜ :** {len(dugmeler)} **Modules**"
                 await event.edit(
                     text,
                     file=logoyins,
@@ -561,7 +561,7 @@ with bot:
                 result = await event.builder.photo(
                     file=logoyins,
                     link_preview=False,
-                    text=f"**× ʟᴜᴍɪᴇʀᴇ-ᴜsᴇʀʙᴏᴛ× 𝙸𝙽𝙻𝙸𝙽𝙴 𝙼𝙴𝙽𝚄 **\n\n⍟ **ʙᴀsᴇ ᴏɴ :** {adB.name}\n⍟ **ᴅᴇᴘʟᴏʏ :** •[{HOSTED_ON}]•\n⍟ **ᴏᴡɴᴇʀ :** {user.first_name}\n⍟ **ᴊᴜᴍʟᴀʜ :** {len(dugmeler)} **Modules**",
+                    text=f"**× 𝙻𝚄𝙼𝙸𝙴𝚁𝙴 𝚄𝚂𝙴𝚁𝙱𝙾𝚃 × 𝙸𝙽𝙻𝙸𝙽𝙴 𝙼𝙴𝙽𝚄 **\n\n⍟ **ʙᴀsᴇ ᴏɴ :** {adB.name}\n⍟ **ᴅᴇᴘʟᴏʏ :** •[{HOSTED_ON}]•\n⍟ **ᴏᴡɴᴇʀ :** {user.first_name}\n⍟ **ᴊᴜᴍʟᴀʜ :** {len(dugmeler)} **Modules**",
                     buttons=main_help_button,
                 )
             elif query.startswith("repo"):
@@ -574,7 +574,7 @@ with bot:
                         0,
                         "image/jpeg",
                         []),
-                    text="×ʟᴜᴍɪᴇʀᴇ-ᴜsᴇʀʙᴏᴛ×\n➖➖➖➖➖➖➖➖➖➖\n✧  **ʀᴇᴘᴏ :** [ʟᴜᴍɪᴇʀᴇ-ᴜsᴇʀʙᴏᴛ](https://t.me/Strangedocx)\n✧ **sᴜᴘᴘᴏʀᴛ :** @Lumieresupport\n✧ **ʀᴇᴘᴏsɪᴛᴏʀʏ :** [Lumiere-ubot](https://github.com/NotLumiere/Lumiere-Userbot)\n➖➖➖➖➖➖➖➖➖➖",
+                    text="×ʟᴜᴍɪᴇʀᴇ-ᴜsᴇʀʙᴏᴛ×\n➖➖➖➖➖➖➖➖➖➖\n✧  **ʀᴇᴘᴏ :** [ʟᴜᴍɪᴇʀᴇ-ᴜsᴇʀʙᴏᴛ](https://t.me/Strangedocx)\n✧ **sᴜᴘᴘᴏʀᴛ :** @Lumieresupport\n✧ **ʀᴇᴘᴏsɪᴛᴏʀʏ :** [Lumiere-userbot](https://github.com/NotLumiere/Lumiere-Userbot)\n➖➖➖➖➖➖➖➖➖➖",
                     buttons=[
                         [
                             custom.Button.url(
@@ -806,28 +806,28 @@ with bot:
                     f"""
 ✘ **Perintah yang tersedia di vcplugin** ✘
 
-  »  **Perintah :** {cmd}play <Judul Lagu/Link YT>
+  »  **Perintah :** `{cmd}play` <Judul Lagu/Link YT>
   »  **Kegunaan :** Untuk Memutar Lagu di voice chat group dengan akun kamu.
 
-  »  **Perintah :** {cmd}vplay <Judul Video/Link YT>
+  »  **Perintah :** `{cmd}vplay` <Judul Video/Link YT>
   »  **Kegunaan :** Untuk Memutar Video di voice chat group dengan akun kamu.
 
-  »  **Perintah :** {cmd}end
+  »  **Perintah :** `{cmd}end`
   »  **Kegunaan :** Untuk Memberhentikan video/lagu yang sedang putar di voice chat group.
 
-  »  **Perintah :** {cmd}skip
+  »  **Perintah :** `{cmd}skip`
   »  **Kegunaan :** Untuk Melewati video/lagu yang sedang di putar.
 
-  »  **Perintah :** {cmd}pause
+  »  **Perintah :** `{cmd}pause`
   »  **Kegunaan :** Untuk memberhentikan video/lagu yang sedang diputar.
 
   »  **Perintah :** `{cmd}resume`
   »  **Kegunaan :** Untuk melanjutkan pemutaran video/lagu yang sedang diputar.
 
-  »  **Perintah :** {cmd}volume 1-200
+  »  **Perintah :** `{cmd}volume` 1-200
   »  **Kegunaan :** Untuk mengubah volume (Membutuhkan Hak admin).
 
-  »  **Perintah :** {cmd}playlist
+  »  **Perintah :** `{cmd}playlist`
   »  **Kegunaan :** Untuk menampilkan daftar putar Lagu/Video.
 """)
                 await event.edit(
