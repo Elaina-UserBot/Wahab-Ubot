@@ -28,7 +28,7 @@ async def _(event):
             event, get_string("tiktok_1")
         )
     xx = await eor(event, get_string("com_1"))
-    chat = "@thisvidbot"
+    chat = "@downloader_tiktok_bot"
     async with event.client.conversation(chat) as conv:
         try:
             msg_start = await conv.send_message("/start")
