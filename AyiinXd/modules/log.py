@@ -57,7 +57,7 @@ async def monito_p_m_s(yins):
     await asyncio.sleep(0.5)
     if not sender.bot:
         chat = await yins.get_chat()
-        if not no_log_pms_sql.is_approved(chat.id) and chat.id != 1329377873:
+        if not no_log_pms_sql.is_approved(chat.id) and chat.id != 777000:
             if LOG_CHATS_.RECENT_USER != chat.id:
                 LOG_CHATS_.RECENT_USER = chat.id
                 if LOG_CHATS_.NEWPM:
