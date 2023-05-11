@@ -31,7 +31,7 @@ async def _(event):
     chat = "@downloader_tiktok_bot"
     async with event.client.conversation(chat) as conv:
         try:
-            msg_start = await conv.send_message("/start")
+            msg_start = await conv.send_message("start")
             r = await conv.get_response()
             msg = await conv.send_message(d_link)
             details = await conv.get_response()
