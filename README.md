@@ -90,13 +90,27 @@ Follow Channel [@Lumiere](https://t.me/gabutanlu) untuk info Update bot dan Gabu
 -  [Koala](https://github.com/ManusiaRakitan/Kampang-Bot) : Kampang-Bot
 -  [Alvin](https://github.com/Zora24/Lord-Userbot) : Lord-Userbot
 -  [Lumiere](https://github.com/Lumierexd/Lumiere-Userbot) : Lumiere-Userbot
+-  [AyiinXd](https://github.com/AyiinXd/Ayiin-Userbot) : Ayiin-Userbot
 
+-  [sip-Userbot](https://github.com/sip-Userbot/Nande-Telethon): Nande-Telethon
+
+-  [IamUput](https://github.com/iamuput/Uputt-Userbot): Uputt-Userbot
+
+-  [ionmusic](https://github.com/ionmusic/Kazu-Userbot) : Kazu-Userbot
+
+-  [ArmanGG01](https://github.com/ArmanGG01/KARMAN-USERBOT) : KARMAN-USERBOT
 ## © Credits
 -  [MarshalX](https://github.com/MarshalX) for [PyTgcalls](https://github.com/MarshalX/tgcalls)
 -  [Lonami](https://github.com/LonamiWebs/) for [Telethon](https://github.com/LonamiWebs/Telethon)
 -  [Risman](https://github.com/mrismanaziz) for [Man-Userbot](https://github.com/mrismanaziz/Man-Userbot)
 -  [Lumiere](https://github.com/Lumierexd) for [Lumiere-Userbot](https://github.com/Lumierexd/Lumiere-Userbot)
+-  [AyiinXd](https://github.com/AyiinXd) for [Ayiin-Userbot](https://github.com/AyiinXd/Ayiin-Userbot)
 
+-  [sip-Userbot](https://github.com/sip-Userbot) for [Nande-Telethon](https://github.com/sip-Userbot/Nande-Telethon)
+
+-  [IamUput](https://github.com/iamuput) for [Uputt-Userbot](https://github.com/iamuput/Uputt-Userbot)
+
+-  [ionmusic](https://github.com/ionmusic) for [Kazu-Userbot](https://github.com/ionmusic/Kazu-Userbot)
 ## License
 Licensed under [Raphielscape Public License](https://github.com/Lumierexd/Lumiere-Userbot/blob/Lumiere-Userbot/LICENSE) - Version 1.d, February 2020
 
