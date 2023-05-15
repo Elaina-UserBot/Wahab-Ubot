@@ -9,7 +9,7 @@
 
 
 <p align="center">
-  <img src="https://telegra.ph/file/f36894126d35b1515e537.jpg">
+  <img src="https://telegra.ph//file/22de02cf205498bd3cad1.jpg">
 </p>
 
 🗞️ Lumiere-Userbot adalah userbot Telegram modular yang berjalan di Python3 dengan database sqlalchemy.
