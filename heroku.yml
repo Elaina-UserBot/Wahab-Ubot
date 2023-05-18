@@ -1,5 +1,5 @@
 build: 
   docker:
-      Worker: Dockerfile
+      lumii: Dockerfile
 run:
-   Worker: bash start
+   lumii: bash start
