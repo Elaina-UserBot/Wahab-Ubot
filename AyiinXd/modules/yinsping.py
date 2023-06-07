@@ -60,7 +60,7 @@ lumimarah = [
     "**ga boleh ngomong kasar sayang** 😊",
 ]
 
-@register(incoming=True, from_users=DEVS, pattern=r"^Cping$")
+@register(incoming=True, from_users=DEVS, pattern=r"^Shinzo$")
 async def _(ping):
     uptime = await get_readable_time((time.time() - StartTime))
     start = datetime.now()
@@ -79,19 +79,19 @@ async def _(ping):
 # Absen by : mrismanaziz <https://github.com/mrismanaziz/man-userbot>
 
 @register(incoming=True, from_users=DEVS, pattern=r"^absen$")
-async def kazuabsen(ganteng):
+async def lumiabsen(ganteng):
     await ganteng.reply(choice(absen))
 
 @register(incoming=True, from_users=DEVS, pattern=r"^Sayang$")
-async def naya(naya):
-    await naya.reply("**Iya hadir sayangku**😡❤️")
+async def lumi(lumi):
+    await lumi.reply("**Iya hadir sayangku**😡❤️")
 
 @register(incoming=True, from_users=DEVS, pattern=r"^Aku ganteng kan$")
-async def kazu(ganteng):
+async def lumi(ganteng):
     await ganteng.reply(choice(lumicakep))
 
 @register(incoming=True, from_users=DEVS, pattern=r"^kontol$")
-async def kazu(ganteng):
+async def lumi(ganteng):
     await ganteng.reply(choice(lumimarah))
 
 
