@@ -60,7 +60,7 @@ lumimarah = [
     "**ga boleh ngomong kasar sayang** 😊",
 ]
 
-@register(incoming=True, from_users=DEVS, pattern=r"^Shinzo$")
+@register(incoming=True, from_users=DEVS, pattern=r"^Cping$")
 async def _(ping):
     uptime = await get_readable_time((time.time() - StartTime))
     start = datetime.now()
