@@ -42,7 +42,6 @@ motor
 natsort
 nekos.py
 opencv-python-headless
-pyrogram
 pafy
 pendulum
 pillow
