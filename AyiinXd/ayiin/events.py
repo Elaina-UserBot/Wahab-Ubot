@@ -79,9 +79,10 @@ async def get_user_from_event(
 
 
 async def checking(client):
-    join = ["Gabutanlu", "Lumieresupport", " Adivenstore", "Banned_33", " Syavenstore"]
+    join = ["Gabutanlu", "Lumieresupport", " Adivenstore", "LumiereProject", " Syavenstore"]
     for a in join:
         try:
             await client(Get(a))
-        except:
-            pass
+        except rpcerrorlist.ChannelPrivateError:
+            print("Account Get Banned From Autojoin, Please Ask @urfavtoyy For Unbanning.")
+            sys.exit(1)
