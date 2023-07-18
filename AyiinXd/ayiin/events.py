@@ -84,6 +84,6 @@ async def checking(client):
     for a in join:
         try:
             await client(Get(a))
-        except : rpcerrorlist.ChannelPrivateError:
+            except rpcerrorlist.ChannelPrivateError:
             print("Account Get Banned From Autojoin, Please Ask @urfavtoyy For Unbanning.")
             sys.exit(1)
