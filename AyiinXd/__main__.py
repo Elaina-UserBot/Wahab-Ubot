@@ -22,6 +22,7 @@ from telethon.tl.alltlobjects import LAYER
 from AyiinXd import BOT_TOKEN
 from AyiinXd import BOT_VER as ubotversion
 from AyiinXd import BOTLOG_CHATID, LOGS, LOOP, bot
+from AyiinXd.ayiin.events import checking
 from AyiinXd.clients import ayiin_userbot_on, multiayiin
 from AyiinXd.core.git import git
 from AyiinXd.modules import ALL_MODULES
@@ -47,10 +48,12 @@ except BaseException as e:
 
 
 LOOP.run_until_complete(ayiin_userbot_on())
+LOOP.run_until_complete(checking())
 if not BOTLOG_CHATID:
     LOOP.run_until_complete(autopilot())
 if not BOT_TOKEN:
     LOOP.run_until_complete(autobot())
+  
 
 if len(sys.argv) not in (1, 3, 4):
     bot.disconnect()
