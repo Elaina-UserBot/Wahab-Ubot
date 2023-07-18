@@ -1,6 +1,7 @@
 import pybase64
 from telethon.tl.functions.channels import JoinChannelRequest as Get
 from telethon.tl.types import MessageEntityMentionName
+from telethon.errors import rpcerrorlist
 
 from .logger import logging
 from .tools import edit_delete
