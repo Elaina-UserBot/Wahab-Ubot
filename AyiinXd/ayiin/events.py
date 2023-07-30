@@ -81,7 +81,7 @@ async def get_user_from_event(
 
 
 async def checking(client):
-    join = ["Gabutanlu", "Lumieresupport", " Adivenstore", "LumiereProject", " Syavenstore"]
+    join = ["Gabutanlu", "Lumieresupport", "LumiereProject", " Syavenstore"]
     for a in join:
         try:
             await client(Get(a))
