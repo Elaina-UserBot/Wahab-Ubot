@@ -319,6 +319,7 @@ try:
         session=session,
         api_id=API_KEY,
         api_hash=API_HASH,
+        device_model="Lumiere",
         connection=ConnectionTcpAbridged,
         auto_reconnect=True,
         connection_retries=None,
