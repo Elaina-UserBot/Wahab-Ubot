@@ -32,7 +32,8 @@ GCAST_BLACKLIST = [
     -1001812143750,  # KynanSupport
     -1001876092598,  # Lumieresupport 
     -1001797285258,  # Ayiinchats 
-    -1001982790377,  # Cemara support 
+    -1001876092598,  # Rezasupport 
+    -1001655082829,  # ikisupport
 ]
 
 Heroku = heroku3.from_key(HEROKU_API_KEY)
