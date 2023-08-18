@@ -345,7 +345,7 @@ else:
 
 async def update_restart_msg(chat_id, msg_id):
     message = (
-        f"**ʟᴜᴍɪᴇʀᴇ-ᴜsᴇʀʙᴏᴛ v`{BOT_VER}` is back up and running!**\n\n"
+        f"**ʟᴜᴍɪᴇʀᴇ-ᴜsᴇʀʙᴏᴛ v`{BOT_VER}` is updated and running!**\n\n"
         f"**Telethon:** `{vsc}`\n"
         f"**Python:** `{python_version()}`\n"
     )
@@ -612,7 +612,7 @@ with bot:
                         [
                             custom.Button.url(
                                 "Bᴏᴛ Sᴛʀɪɴɢ",
-                                url="https://t.me/kazu_stringbot?start="),
+                                url="https://t.me/MakimaStringBot?start="),
                             custom.Button.url(
                                 "Sᴛʀɪɴɢ Rᴇᴘʟɪᴛ",
                                 url="https://repl.it/@AyiinXd/AyiinString?lite=1&outputonly=1"),
