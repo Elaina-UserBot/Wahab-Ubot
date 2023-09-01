@@ -135,8 +135,8 @@ async def autobot():
             sys.exit(1)
     filogo = random.choice(
           [
-              "https://telegra.ph//file/c92e38e135d6c00ec9bc7.jpg",
-              "https://telegra.ph//file/c92e38e135d6c00ec9bc7.jpg",
+              "AyiinXd/resources/IMG_20230901_134439_699.jpg",
+              "AyiinXd/resources/IMG_20230901_134439_699.jpg",
           ]
     )
     await bot.send_message(bf, username)
@@ -228,7 +228,7 @@ async def autobot():
             f"BERHASIL MEMBUAT ASSISTANT BOT KAMU DENGAN USERNAME @{username}")
         await bot.send_message(
             BOTLOG_CHATID,
-            "**SEDANG MERESTART USERBOT TUNGGU SEBENTAR SAYANG.**",
+            "**SEDANG MERESTART USERBOT TUNGGU SEBENTAR.**",
         )
         heroku_var["BOT_TOKEN"] = token
         heroku_var["BOT_USERNAME"] = f"@{username}"
