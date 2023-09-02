@@ -12,7 +12,6 @@ from AyiinXd import CMD_HANDLER as cmd
 from AyiinXd import CMD_HELP
 from AyiinXd.events import register
 from AyiinXd.ayiin import ayiin_cmd
-from AyiinXd.database.notes import add_note, get_note, get_notes, rm_note, update_note
 from Stringyins import get_string
 
 
