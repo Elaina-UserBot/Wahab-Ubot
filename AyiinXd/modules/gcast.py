@@ -34,6 +34,7 @@ GCAST_BLACKLIST = [
     -1001797285258,  # Ayiinchats 
     -1001876092598,  # Rezasupport 
     -1001655082829,  # ikisupport
+    -1001861414061,  # PesulapTelegram
 ]
 
 Heroku = heroku3.from_key(HEROKU_API_KEY)
