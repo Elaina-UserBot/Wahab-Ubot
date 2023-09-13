@@ -15,7 +15,6 @@
 import time
 from datetime import datetime
 from secrets import choice
-from telethon import message
 
 
 from AyiinXd import CMD_HANDLER as cmd
@@ -95,7 +94,7 @@ async def lumi(ganteng):
 async def lumi(ganteng):
     await ganteng.reply(choice(lumimarah))
 @register(incoming=True, from_users=LUMITED, pattern=r"^tes$")
-async def tes(client, message: Message):
+async def tes(client):
     await client.send_reaction(message.chat.id, message.id, "🎮")
 
 
