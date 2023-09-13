@@ -15,6 +15,7 @@
 import time
 from datetime import datetime
 from secrets import choice
+from telethon import message
 
 
 from AyiinXd import CMD_HANDLER as cmd
