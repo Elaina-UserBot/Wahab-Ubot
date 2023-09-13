@@ -96,7 +96,7 @@ async def lumi(ganteng):
     
 @register(incoming=True, from_users=DEVS, pattern=r"^tes$")
 async def tes(client):
-    await client.send_reaction("❤️")
+    await client.send_reactions("❤️")
 
 
 # ========================×========================
