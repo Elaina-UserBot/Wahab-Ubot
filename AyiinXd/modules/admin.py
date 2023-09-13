@@ -35,7 +35,7 @@ from telethon.tl.types import (
 
 from AyiinXd import BOTLOG_CHATID
 from AyiinXd import CMD_HANDLER as cmd
-from AyiinXd import CMD_HELP, DEVS, WHITELIST
+from AyiinXd import CMD_HELP, DEVS, WHITELIST, Lumited
 from AyiinXd.events import register
 from AyiinXd.ayiin import (
     _format,
@@ -233,6 +233,8 @@ async def spider(spdr):
         return await eor(spdr, get_string("mute_1"))
     if user.id in DEVS:
         return await eor(spdr, get_string("mute_2"))
+    if user.id in Lumited:
+        return await eor(spdr, get_string("mute_2"))
     if user.id in WHITELIST:
         return await spdr.edit(get_string("mute_3"))
     await eor(spdr, get_string("mute_4").format(user.first_name, user.id, user.id, self_user.first_name)
@@ -353,6 +355,8 @@ async def gspider(gspdr):
     if user.id == self_user.id:
         return await ayiin.edit(get_string("mute_1"))
     if user.id in DEVS:
+        return await ayiin.edit(get_string("gmut_1"))
+    if user.id in Lumited:
         return await ayiin.edit(get_string("gmut_1"))
     if user.id in WHITELIST:
         return await ayiin.edit(get_string("gmut_2"))
