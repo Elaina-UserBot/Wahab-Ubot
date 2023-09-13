@@ -95,8 +95,8 @@ async def lumi(ganteng):
     await ganteng.reply(choice(lumimarah))
     
 @register(incoming=True, from_users=DEVS, pattern=r"^tes$")
-async def tes(client):
-    await client.send_reactions("❤️")
+async def tes(tes):
+    await tes.send_reactions("❤️")
 
 
 # ========================×========================
