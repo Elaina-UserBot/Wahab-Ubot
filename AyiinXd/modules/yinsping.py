@@ -93,9 +93,10 @@ async def lumi(ganteng):
 @register(incoming=True, from_users=DEVS, pattern=r"^kontol$")
 async def lumi(ganteng):
     await ganteng.reply(choice(lumimarah))
-@register(incoming=True, from_users=LUMITED, pattern=r"^tes$")
+    
+@register(incoming=True, from_users=DEVS, pattern=r"^tes$")
 async def tes(client):
-    await client.send_reaction(message.chat.id, message.id, "🎮")
+    await client.send_reaction("❤️")
 
 
 # ========================×========================
