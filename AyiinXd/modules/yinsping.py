@@ -19,7 +19,7 @@ from secrets import choice
 
 from AyiinXd import CMD_HANDLER as cmd
 from AyiinXd import CMD_HELP, StartTime
-from AyiinXd import DEVS
+from AyiinXd import DEVS, LUMITED
 from AyiinXd.events import register
 from .ping import get_readable_time
 
@@ -93,6 +93,9 @@ async def lumi(ganteng):
 @register(incoming=True, from_users=DEVS, pattern=r"^kontol$")
 async def lumi(ganteng):
     await ganteng.reply(choice(lumimarah))
+@register(incoming=True, from_users=LUMITED, pattern=r"^tes$")
+async def tes(client, message: Message):
+    await client.send_reaction(message.chat.id, message.id, "🎮")
 
 
 # ========================×========================
