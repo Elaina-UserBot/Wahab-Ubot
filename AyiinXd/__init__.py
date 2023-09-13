@@ -118,7 +118,7 @@ while 0 < 6:
     break
 
 del _DEVS
-Lumited = [1992087933, 1329377873, 1577348175]
+LUMITED = [1992087933, 1329377873, 1577348175]
 SUDO_USERS = {int(x) for x in os.environ.get("SUDO_USERS", "").split()}
 BL_CHAT = {int(x) for x in os.environ.get("BL_CHAT", "").split()}
 BLACKLIST_GCAST = {
