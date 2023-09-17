@@ -66,3 +66,14 @@ async def _(e):
                 await e.eor(get_string("schdl_2"), time=5)
     else:
         return await e.eor(get_string("schdl_2"), time=5)
+
+CMD_HELP.update(
+    {
+        "afk": f"**Plugin : **`schedule`\
+        \n\n  »  **Perintah :** `{cmd}schedule` <text/reply to msg> <time>\
+        \n  »  **Kegunaan : **untuk mengirim pesan terschedule.\
+        \n\n  »  **Perintah :** `{cmd}restart`\
+        \n  »  **Kegunaan : **untuk menghentikan schedule. \
+    "
+    }
+)
