@@ -13,8 +13,6 @@ from AyiinXd import CMD_HANDLER as cmd
 from AyiinXd.ayiin import ayiin_cmd, eod, eor
 from Stringyins import get_string
 
-from . import *
-
 def ban_time(time_str):
     """Simplify ban time from text"""
     if not any(time_str.endswith(unit) for unit in ("s", "m", "h", "d")):
