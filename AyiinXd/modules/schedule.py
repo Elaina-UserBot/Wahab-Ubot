@@ -9,6 +9,7 @@ from datetime import timedelta
 
 from telethon.tl import functions, types
 
+from AyiinXd import CMD_HELP
 from AyiinXd import CMD_HANDLER as cmd
 from AyiinXd.ayiin import ayiin_cmd, eod, eor
 from Stringyins import get_string
