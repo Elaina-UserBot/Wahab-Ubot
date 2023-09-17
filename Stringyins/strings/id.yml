@@ -736,6 +736,10 @@ sosdez_1: "`Mohon Berikan Link Deezloader yang ingin di download`"
 sostik_1: "**Berikan Link Tiktok Pesan atau Reply Link Tiktok Untuk di Download**"
 sostik_2: "`Video Sedang Diproses...`"
 
+# Schedule tools
+schdl_1: "`Berhasil Membuat Pesan terjadwal `"
+schdl_2: "`Format Salah`"
+
 # spam tools
 spam_1: "#SPAM\nSpam berhasil dieksekusi di [Pengguna](tg://user?id={}) mengobrol dengan {} kali dengan pesan di bawah"
 spam_2: "#SPAM\nSpam berhasil dieksekusi di {}(`{}`) dengan {} kali dengan pesan di bawah"
