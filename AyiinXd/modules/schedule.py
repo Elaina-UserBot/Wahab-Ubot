@@ -69,7 +69,7 @@ async def _(e):
 
 CMD_HELP.update(
     {
-        "afk": f"**Plugin : **`schedule`\
+        "schedule": f"**Plugin : **`schedule`\
         \n\n  »  **Perintah :** `{cmd}schedule` <text/reply to msg> <time>\
         \n  »  **Kegunaan : **untuk mengirim pesan terschedule.\
         \n\n  »  **Perintah :** `{cmd}restart`\
