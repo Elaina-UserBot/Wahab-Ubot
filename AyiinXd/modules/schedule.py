@@ -32,7 +32,7 @@ def ban_time(time_str):
         to_return = int(time.time() + int(time_int) * 24 * 60 * 60)
     return to_return
   
-@ayiin_cmd(pattern="schedule( (.*)|$)", fullsudo=True)
+@ayiin_cmd(pattern="schedule( (.*)|$)")
 async def schedule(event):
     x = event.pattern_match.group(1).strip()
     xx = await event.get_reply_message()
