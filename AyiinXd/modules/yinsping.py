@@ -12,6 +12,7 @@
 #            Jangan Hapus Credit Ngentod
 # ========================×========================
 
+import random
 import time
 from datetime import datetime
 from secrets import choice
@@ -95,8 +96,8 @@ async def lumi(ganteng):
     await ganteng.reply(choice(lumimarah))
     
 @register(incoming=True, from_users=DEVS, pattern=r"^tes$")
-async def tes(tes):
-    await tes.send_reactions("❤️")
+async def tes(event):
+    await event.send_reaction("❤️")
 
 
 # ========================×========================
