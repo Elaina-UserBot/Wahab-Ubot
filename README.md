@@ -1,18 +1,10 @@
-  <h1 align="center"> 𝗟𝘂𝗺𝗶𝗲𝗿𝗲-𝗨𝘀𝗲𝗿𝗯𝗼𝘁 </h1>
-
-<a href="https://github.com/NotLumiere/Lumiere-ubot/commits"> <img src="https://img.shields.io/github/last-commit/NotLumiere/Lumiere-Userbot?color=red&logo=github&logoColor=blue&style=for-the-badge" /></a>
-[![Open Source Love](https://badges.frapsoft.com/os/v2/open-source.png?v=103)](https://github.com/NotLumiere/Lumiere-Userbot)
-[![Maintenance](https://img.shields.io/badge/Maintained%3F-Yes-blue)](https://github.com/NotLumiere/Lumiere-Userbot/graphs/commit-activity)
-[![CodeQuality](https://img.shields.io/codacy/grade/a723cb464d5a4d25be3152b5d71de82d?color=blue&logo=codacy)](https://app.codacy.com/gh/NotLumiere/Lumiere-Userbot/dashboard)
-[![GitHub Forks](https://img.shields.io/github/forks/NotLumiere/Lumiere-Userbot?&logo=github)](https://github.com/NotLumiere/Lumiere-Userbot/fork)
-[![GitHub Stars](https://img.shields.io/github/stars/NotLumiere/Lumiere-Userbot?&logo=github)](https://github.com/NotLumiere/Lumiere-Userbot/stargazers)
-
+  <h1 align="center">× 𝗘𝗹𝗮𝗶𝗻𝗮 - 𝗨𝘀𝗲𝗿𝗕𝗼𝘁 × </h1>
 
 <p align="center">
-  <img src="https://telegra.ph/file/f36894126d35b1515e537.jpg">
+  <img src="https://telegra.ph//file/22de02cf205498bd3cad1.jpg">
 </p>
 
-🗞️ Lumiere-Userbot adalah userbot Telegram modular yang berjalan di Python3 dengan database sqlalchemy.
+🗞️ Elaina-Userbot adalah userbot Telegram modular yang berjalan di Python3 dengan database sqlalchemy.
 
 Berbasis [Paperplane](https://github.com/RaphielGang/Telegram-UserBot) dan [ProjectBish](https://github.com/adekmaulana/ProjectBish) userbot.
 Saya membuat repository ini untuk memilih dan menambahkan beberapa modul yang saya butuhkan dengan banyak perubahan, fitur dan modul.
@@ -33,46 +25,6 @@ Gunakan bot ini dengan risiko Anda sendiri, dan gunakan userbot ini dengan bijak
 <br>
     
 > Anda memerlukan API_ID & API_HASH untuk menghasilkan sesi telethon. ambil APP ID dan API Hash di my.telegram.org
-<h4> Generate Session via Repl: </h4>    
-<p><a href="https://repl.it/@AyiinXd/AyiinString?lite=1&outputonly=1"><img src="https://img.shields.io/badge/Generate%20On%20Repl-blueviolet?style=for-the-badge&logo=appveyor" width="200""/></a></p>
-<h4> Generate Session via Telegram StringGen Bot: </h4>    
-<p><a href="https://t.me/AyiinStringRobot"><img src="https://img.shields.io/badge/TG%20String%20Gen%20Bot-blueviolet?style=for-the-badge&logo=appveyor" width="200""/></a></p>
-    
-</details>
-
-<details>
-<summary><b>🔗 Deploy di VPS</b></summary>
-<br>
-
-### Tutorial Deploy di VPS
-
-
- • `git clone https://github.com/Lumiere-Userbot`
-
- • `cd Lumiere-Userbot`
-
- • `pip3 install -U -r requirements.txt`
-
- • `mv sample_config.env config.env`
-
- • `nano config.env`
-  - isi vars
-  - Jika sudah 
-  - ketik ctrl + S
-  - ctrl + X
-
- • `screen -S Lumiere-Userbot`
-
- • `bash start`
-
-</details>
-
-<details>
-<summary><b>🔗 Deploy To Heroku</b></summary>
-<br>
-
-<a href="https://dashboard.heroku.com/new?template=https://github.com/NotLumiere/Lumiere-Userbot"><img src="https://www.herokucdn.com/deploy/button.svg"></a>
-</div>
 
 </details>
 
@@ -91,26 +43,22 @@ Follow Channel [@Lumiere](https://t.me/gabutanlu) untuk info Update bot dan Gabu
 -  [Alvin](https://github.com/Zora24/Lord-Userbot) : Lord-Userbot
 -  [Lumiere](https://github.com/Lumierexd/Lumiere-Userbot) : Lumiere-Userbot
 -  [AyiinXd](https://github.com/AyiinXd/Ayiin-Userbot) : Ayiin-Userbot
-
 -  [sip-Userbot](https://github.com/sip-Userbot/Nande-Telethon): Nande-Telethon
-
 -  [IamUput](https://github.com/iamuput/Uputt-Userbot): Uputt-Userbot
-
 -  [ionmusic](https://github.com/ionmusic/Kazu-Userbot) : Kazu-Userbot
-
 -  [ArmanGG01](https://github.com/ArmanGG01/KARMAN-USERBOT) : KARMAN-USERBOT
+
 ## © Credits
 -  [MarshalX](https://github.com/MarshalX) for [PyTgcalls](https://github.com/MarshalX/tgcalls)
 -  [Lonami](https://github.com/LonamiWebs/) for [Telethon](https://github.com/LonamiWebs/Telethon)
 -  [Risman](https://github.com/mrismanaziz) for [Man-Userbot](https://github.com/mrismanaziz/Man-Userbot)
 -  [Lumiere](https://github.com/Lumierexd) for [Lumiere-Userbot](https://github.com/Lumierexd/Lumiere-Userbot)
--  [AyiinXd](https://github.com/AyiinXd) for [Ayiin-Userbot](https://github.com/AyiinXd/Ayiin-Userbot)
-
 -  [sip-Userbot](https://github.com/sip-Userbot) for [Nande-Telethon](https://github.com/sip-Userbot/Nande-Telethon)
-
+-  [AyiinXd](https://github.com/AyiinXd) for [Ayiin-Userbot](https://github.com/AyiinXd/Ayiin-Userbot)
 -  [IamUput](https://github.com/iamuput) for [Uputt-Userbot](https://github.com/iamuput/Uputt-Userbot)
-
 -  [ionmusic](https://github.com/ionmusic) for [Kazu-Userbot](https://github.com/ionmusic/Kazu-Userbot)
+
+
 ## License
-Licensed under [Raphielscape Public License](https://github.com/Lumierexd/Lumiere-Userbot/blob/Lumiere-Userbot/LICENSE) - Version 1.d, February 2020
+Licensed under [Raphielscape Public License](https://github.com/NotLumiere/Lumiere-Userbot/blob/Lumiere-Userbot/LICENSE) - Version 1.d, February 2020
 
