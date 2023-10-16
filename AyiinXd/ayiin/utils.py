@@ -58,8 +58,8 @@ async def autopilot():
     try:
         r = await bot(
             CreateChannelRequest(
-                title="Lᴜᴍɪᴇʀᴇ-Usᴇʀʙᴏᴛ Lᴏɢs",
-                about="» Group log Created by: Lumiere Userbot\n\n» Support : @Lumieresupport\n» Support: @Gabutanlu",
+                title="Eʟᴀɪɴᴀ--Usᴇʀʙᴏᴛ Lᴏɢs",
+                about="» Group log Created by: Elaina Userbot\n\n» Support : @Lumieresupport\n» Support: @Gabutanlu",
                 megagroup=True,
             ),
         )
@@ -106,7 +106,7 @@ async def autobot():
     if who.username:
         username = f"{who.username}_bot"
     else:
-        username = f"Lumi{(str(who.id))[5:]}bot"
+        username = f"Elaina{(str(who.id))[5:]}bot"
     bf = "@BotFather"
     await bot(UnblockRequest(bf))
     await bot.send_message(bf, "/cancel")
@@ -135,8 +135,8 @@ async def autobot():
             sys.exit(1)
     filogo = random.choice(
           [
-              "https://telegra.ph//file/c92e38e135d6c00ec9bc7.jpg",
-              "https://telegra.ph//file/c92e38e135d6c00ec9bc7.jpg",
+              "AyiinXd/resources/IMG_20230901_134439_699.jpg",
+              "AyiinXd/resources/IMG_20230901_134439_699.jpg",
           ]
     )
     await bot.send_message(bf, username)
@@ -145,7 +145,7 @@ async def autobot():
     await bot.send_read_acknowledge("botfather")
     if isdone.startswith("Sorry,"):
         ran = randint(1, 100)
-        username = f"Lumi{(str(who.id))[6:]}{str(ran)}bot"
+        username = f"Elaina{(str(who.id))[6:]}{str(ran)}bot"
         await bot.send_message(bf, username)
         await asyncio.sleep(1)
         nowdone = (await bot.get_messages(bf, limit=1))[0].text
@@ -228,7 +228,7 @@ async def autobot():
             f"BERHASIL MEMBUAT ASSISTANT BOT KAMU DENGAN USERNAME @{username}")
         await bot.send_message(
             BOTLOG_CHATID,
-            "**SEDANG MERESTART USERBOT TUNGGU SEBENTAR SAYANG.**",
+            "**SEDANG MERESTART USERBOT TUNGGU SEBENTAR.**",
         )
         heroku_var["BOT_TOKEN"] = token
         heroku_var["BOT_USERNAME"] = f"@{username}"
