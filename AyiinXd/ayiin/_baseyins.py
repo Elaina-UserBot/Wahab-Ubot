@@ -158,7 +158,7 @@ class SqlDB:
             self._connection.autocommit = True
             self._cursor = self._connection.cursor()
             self._cursor.execute(
-                "CREATE TABLE IF NOT EXISTS Ayiin (ayiinCli varchar(70))"
+                "CREATE TABLE IF NOT EXISTS Elaina (elainaCli varchar(70))"
             )
         except Exception as error:
             LOGS.exception(error)
@@ -175,7 +175,7 @@ class SqlDB:
     @property
     def usage(self):
         self._cursor.execute(
-            "SELECT pg_size_pretty(pg_relation_size('Ayiin')) AS size"
+            "SELECT pg_size_pretty(pg_relation_size('Elaina')) AS size"
         )
         data = self._cursor.fetchall()
         return int(data[0][0].split()[0])
@@ -187,7 +187,7 @@ class SqlDB:
 
     def keys(self):
         self._cursor.execute(
-            "SELECT column_name FROM information_schema.columns WHERE table_schema = 'public' AND table_name  = 'ayiin'"
+            "SELECT column_name FROM information_schema.columns WHERE table_schema = 'public' AND table_name  = 'elaina'"
         )  # case sensitive
         data = self._cursor.fetchall()
         return [_[0] for _ in data]
