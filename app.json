@@ -1,21 +1,21 @@
 {
-  "name": "Lumiere-Userbot",
-  "description": "[Lumiere-Userbot] Buat senang senang doang",
-  "logo": "https://telegra.ph//file/085b459a7b7a963422eb5.jpg",
-  "keywords": ["telegram", "userbot", "Lumiere-Userbot", "modular", "python"],
-  "repository": "https://github.com/NotLumiere/Lumiere-Userbot",
+  "name": "Elaina-Userbot",
+  "description": "[Elaina-Userbot] Persetan sama anak bot",
+  "logo": "https://telegra.ph/file/5bf12593c4bc95977cd40.jpg",
+  "keywords": ["telegram", "userbot", "Elaina-Userbot", "modular", "python"],
+  "repository": "https://github.com/Elaina-UserBot/Wahab-Ubot",
   "stack": "container",
   "env": {
     "API_KEY": {
-      "description": "Dapatkan API KEY di Grup » https://t.me/Lumieresupport » Lalu ketik /get api atau di web my.telegram.org Masukan yg APP ID Telegram",
+      "description": "Dapatkan API KEY di web my.telegram.org Masukan yg APP ID Telegram",
       "required": true
     },
     "API_HASH": {
-      "description": "Dapatkan API Hash di Grup »  https://t.me/Lumieresupport » Lalu ketik /get api atau di web my.telegram.org",
+      "description": "Dapatkan API Hash di web my.telegram.org",
       "required": true
     },
      "STRING_SESSION": {
-      "description": "Dapatkan String Session di Grup »  https://t.me/Lumieresupport » Lalu ketik /get string",
+      "description": "Cari sendiri tod",
       "required": true
     },
     "HEROKU_APP_NAME": {
